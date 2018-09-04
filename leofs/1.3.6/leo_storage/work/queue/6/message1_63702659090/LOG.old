@@ -1,0 +1,36 @@
+2018/09/04-12:47:16.604773 7f5aab660700                        Version: 2.0.33 (open source)
+2018/09/04-12:47:16.604796 7f5aab660700             Options.comparator: leveldb.InternalKeyComparator
+2018/09/04-12:47:16.604799 7f5aab660700      Options.create_if_missing: 1
+2018/09/04-12:47:16.604802 7f5aab660700        Options.error_if_exists: 0
+2018/09/04-12:47:16.604803 7f5aab660700        Options.paranoid_checks: 0
+2018/09/04-12:47:16.604805 7f5aab660700     Options.verify_compactions: 1
+2018/09/04-12:47:16.604807 7f5aab660700                    Options.env: 0x7f5ad4005de0
+2018/09/04-12:47:16.604809 7f5aab660700               Options.info_log: 0x7f5ae05650a0
+2018/09/04-12:47:16.604811 7f5aab660700      Options.write_buffer_size: 62914560
+2018/09/04-12:47:16.604813 7f5aab660700         Options.max_open_files: 1000
+2018/09/04-12:47:16.604815 7f5aab660700            Options.block_cache: 0x7f5ae0566430
+2018/09/04-12:47:16.604816 7f5aab660700             Options.block_size: 4096
+2018/09/04-12:47:16.604818 7f5aab660700       Options.block_size_steps: 16
+2018/09/04-12:47:16.604820 7f5aab660700 Options.block_restart_interval: 16
+2018/09/04-12:47:16.604822 7f5aab660700            Options.compression: 2
+2018/09/04-12:47:16.604824 7f5aab660700          Options.filter_policy: NULL
+2018/09/04-12:47:16.604825 7f5aab660700              Options.is_repair: false
+2018/09/04-12:47:16.604827 7f5aab660700         Options.is_internal_db: false
+2018/09/04-12:47:16.604829 7f5aab660700      Options.total_leveldb_mem: 1253465702
+2018/09/04-12:47:16.604831 7f5aab660700  Options.block_cache_threshold: 33554432
+2018/09/04-12:47:16.604833 7f5aab660700  Options.limited_developer_mem: false
+2018/09/04-12:47:16.604835 7f5aab660700              Options.mmap_size: 0
+2018/09/04-12:47:16.604836 7f5aab660700       Options.delete_threshold: 1000
+2018/09/04-12:47:16.604838 7f5aab660700       Options.fadvise_willneed: false
+2018/09/04-12:47:16.604840 7f5aab660700      Options.tiered_slow_level: 0
+2018/09/04-12:47:16.604842 7f5aab660700     Options.tiered_fast_prefix: ./work/queue/6/message1
+2018/09/04-12:47:16.604844 7f5aab660700     Options.tiered_slow_prefix: ./work/queue/6/message1
+2018/09/04-12:47:16.604845 7f5aab660700                         crc32c: hardware
+2018/09/04-12:47:16.604854 7f5aab660700   Options.cache_object_warming: true
+2018/09/04-12:47:16.604856 7f5aab660700        Options.ExpiryActivated: false
+2018/09/04-12:47:16.604858 7f5aab660700          Options.expiry_module: NULL
+2018/09/04-12:47:16.604860 7f5aab660700                File cache size: 0
+2018/09/04-12:47:16.604862 7f5aab660700               Block cache size: 0
+2018/09/04-12:47:16.605258 7f5aab660700 Recovering log #49
+2018/09/04-12:47:16.607318 7f5aab660700 Delete type=0 #49
+2018/09/04-12:47:16.607342 7f5aab660700 Delete type=3 #48
