@@ -1,0 +1,1420 @@
+
+=====
+===== LOGGING STARTED Wed Sep  5 16:20:03 CST 2018
+=====
+Config path: /usr/local/leofs/1.4.2/leo_storage/etc
+Exec: /usr/local/leofs/1.4.2/leo_storage/erts-8.3/bin/erlexec -heart -boot /usr/local/leofs/1.4.2/leo_storage/releases/1/leo_storage -mode minimal -config /usr/local/leofs/1.4.2/leo_storage/etc/app.config -args_file /usr/local/leofs/1.4.2/leo_storage/etc/vm.args -- console
+Root: /usr/local/leofs/1.4.2/leo_storage
+heart_beat_kill_pid = 83380
+Erlang/OTP 19 [erts-8.3] [source] [64-bit] [smp:4:4] [async-threads:32] [kernel-poll:true]
+
+
+=INFO REPORT==== 5-Sep-2018::16:20:04 ===
+Setup Lager Logger API
+id:leo_diagnosis_log_7, path:"/data1/log/", filename:"leo_object_storage_7"
+* opening log file is /data1/log/leo_object_storage_7.20180905.16.2
+id:leo_diagnosis_log_10007, path:"/data2/log/", filename:"leo_object_storage_10007"
+* opening log file is /data2/log/leo_object_storage_10007.20180905.16.2
+id:leo_diagnosis_log_20007, path:"/data3/log/", filename:"leo_object_storage_20007"
+* opening log file is /data3/log/leo_object_storage_20007.20180905.16.2
+id:leo_diagnosis_log_30007, path:"/data4/log/", filename:"leo_object_storage_30007"
+* opening log file is /data4/log/leo_object_storage_30007.20180905.16.2
+id:leo_diagnosis_log_40007, path:"/data5/log/", filename:"leo_object_storage_40007"
+* opening log file is /data5/log/leo_object_storage_40007.20180905.16.2
+id:leo_diagnosis_log_50007, path:"/data6/log/", filename:"leo_object_storage_50007"
+* opening log file is /data6/log/leo_object_storage_50007.20180905.16.2
+id:leo_diagnosis_log_60007, path:"/data7/log/", filename:"leo_object_storage_60007"
+* opening log file is /data7/log/leo_object_storage_60007.20180905.16.2
+id:leo_diagnosis_log_6, path:"/data1/log/", filename:"leo_object_storage_6"
+* opening log file is /data1/log/leo_object_storage_6.20180905.16.2
+id:leo_diagnosis_log_10006, path:"/data2/log/", filename:"leo_object_storage_10006"
+* opening log file is /data2/log/leo_object_storage_10006.20180905.16.2
+id:leo_diagnosis_log_20006, path:"/data3/log/", filename:"leo_object_storage_20006"
+* opening log file is /data3/log/leo_object_storage_20006.20180905.16.2
+id:leo_diagnosis_log_30006, path:"/data4/log/", filename:"leo_object_storage_30006"
+* opening log file is /data4/log/leo_object_storage_30006.20180905.16.2
+id:leo_diagnosis_log_40006, path:"/data5/log/", filename:"leo_object_storage_40006"
+* opening log file is /data5/log/leo_object_storage_40006.20180905.16.2
+id:leo_diagnosis_log_50006, path:"/data6/log/", filename:"leo_object_storage_50006"
+* opening log file is /data6/log/leo_object_storage_50006.20180905.16.2
+id:leo_diagnosis_log_60006, path:"/data7/log/", filename:"leo_object_storage_60006"
+* opening log file is /data7/log/leo_object_storage_60006.20180905.16.2
+id:leo_diagnosis_log_5, path:"/data1/log/", filename:"leo_object_storage_5"
+* opening log file is /data1/log/leo_object_storage_5.20180905.16.2
+id:leo_diagnosis_log_10005, path:"/data2/log/", filename:"leo_object_storage_10005"
+* opening log file is /data2/log/leo_object_storage_10005.20180905.16.2
+id:leo_diagnosis_log_20005, path:"/data3/log/", filename:"leo_object_storage_20005"
+* opening log file is /data3/log/leo_object_storage_20005.20180905.16.2
+id:leo_diagnosis_log_30005, path:"/data4/log/", filename:"leo_object_storage_30005"
+* opening log file is /data4/log/leo_object_storage_30005.20180905.16.2
+id:leo_diagnosis_log_40005, path:"/data5/log/", filename:"leo_object_storage_40005"
+* opening log file is /data5/log/leo_object_storage_40005.20180905.16.2
+id:leo_diagnosis_log_50005, path:"/data6/log/", filename:"leo_object_storage_50005"
+* opening log file is /data6/log/leo_object_storage_50005.20180905.16.2
+id:leo_diagnosis_log_60005, path:"/data7/log/", filename:"leo_object_storage_60005"
+* opening log file is /data7/log/leo_object_storage_60005.20180905.16.2
+id:leo_diagnosis_log_4, path:"/data1/log/", filename:"leo_object_storage_4"
+* opening log file is /data1/log/leo_object_storage_4.20180905.16.2
+id:leo_diagnosis_log_10004, path:"/data2/log/", filename:"leo_object_storage_10004"
+* opening log file is /data2/log/leo_object_storage_10004.20180905.16.2
+id:leo_diagnosis_log_20004, path:"/data3/log/", filename:"leo_object_storage_20004"
+* opening log file is /data3/log/leo_object_storage_20004.20180905.16.2
+id:leo_diagnosis_log_30004, path:"/data4/log/", filename:"leo_object_storage_30004"
+* opening log file is /data4/log/leo_object_storage_30004.20180905.16.2
+id:leo_diagnosis_log_40004, path:"/data5/log/", filename:"leo_object_storage_40004"
+* opening log file is /data5/log/leo_object_storage_40004.20180905.16.2
+id:leo_diagnosis_log_50004, path:"/data6/log/", filename:"leo_object_storage_50004"
+* opening log file is /data6/log/leo_object_storage_50004.20180905.16.2
+id:leo_diagnosis_log_60004, path:"/data7/log/", filename:"leo_object_storage_60004"
+* opening log file is /data7/log/leo_object_storage_60004.20180905.16.2
+id:leo_diagnosis_log_3, path:"/data1/log/", filename:"leo_object_storage_3"
+* opening log file is /data1/log/leo_object_storage_3.20180905.16.2
+id:leo_diagnosis_log_10003, path:"/data2/log/", filename:"leo_object_storage_10003"
+* opening log file is /data2/log/leo_object_storage_10003.20180905.16.2
+id:leo_diagnosis_log_20003, path:"/data3/log/", filename:"leo_object_storage_20003"
+* opening log file is /data3/log/leo_object_storage_20003.20180905.16.2
+id:leo_diagnosis_log_30003, path:"/data4/log/", filename:"leo_object_storage_30003"
+* opening log file is /data4/log/leo_object_storage_30003.20180905.16.2
+id:leo_diagnosis_log_40003, path:"/data5/log/", filename:"leo_object_storage_40003"
+* opening log file is /data5/log/leo_object_storage_40003.20180905.16.2
+id:leo_diagnosis_log_50003, path:"/data6/log/", filename:"leo_object_storage_50003"
+* opening log file is /data6/log/leo_object_storage_50003.20180905.16.2
+id:leo_diagnosis_log_60003, path:"/data7/log/", filename:"leo_object_storage_60003"
+* opening log file is /data7/log/leo_object_storage_60003.20180905.16.2
+id:leo_diagnosis_log_2, path:"/data1/log/", filename:"leo_object_storage_2"
+* opening log file is /data1/log/leo_object_storage_2.20180905.16.2
+id:leo_diagnosis_log_10002, path:"/data2/log/", filename:"leo_object_storage_10002"
+* opening log file is /data2/log/leo_object_storage_10002.20180905.16.2
+id:leo_diagnosis_log_20002, path:"/data3/log/", filename:"leo_object_storage_20002"
+* opening log file is /data3/log/leo_object_storage_20002.20180905.16.2
+id:leo_diagnosis_log_30002, path:"/data4/log/", filename:"leo_object_storage_30002"
+* opening log file is /data4/log/leo_object_storage_30002.20180905.16.2
+id:leo_diagnosis_log_40002, path:"/data5/log/", filename:"leo_object_storage_40002"
+* opening log file is /data5/log/leo_object_storage_40002.20180905.16.2
+id:leo_diagnosis_log_50002, path:"/data6/log/", filename:"leo_object_storage_50002"
+* opening log file is /data6/log/leo_object_storage_50002.20180905.16.2
+id:leo_diagnosis_log_60002, path:"/data7/log/", filename:"leo_object_storage_60002"
+* opening log file is /data7/log/leo_object_storage_60002.20180905.16.2
+id:leo_diagnosis_log_1, path:"/data1/log/", filename:"leo_object_storage_1"
+* opening log file is /data1/log/leo_object_storage_1.20180905.16.2
+id:leo_diagnosis_log_10001, path:"/data2/log/", filename:"leo_object_storage_10001"
+* opening log file is /data2/log/leo_object_storage_10001.20180905.16.2
+id:leo_diagnosis_log_20001, path:"/data3/log/", filename:"leo_object_storage_20001"
+* opening log file is /data3/log/leo_object_storage_20001.20180905.16.2
+id:leo_diagnosis_log_30001, path:"/data4/log/", filename:"leo_object_storage_30001"
+* opening log file is /data4/log/leo_object_storage_30001.20180905.16.2
+id:leo_diagnosis_log_40001, path:"/data5/log/", filename:"leo_object_storage_40001"
+* opening log file is /data5/log/leo_object_storage_40001.20180905.16.2
+id:leo_diagnosis_log_50001, path:"/data6/log/", filename:"leo_object_storage_50001"
+* opening log file is /data6/log/leo_object_storage_50001.20180905.16.2
+id:leo_diagnosis_log_60001, path:"/data7/log/", filename:"leo_object_storage_60001"
+* opening log file is /data7/log/leo_object_storage_60001.20180905.16.2
+id:leo_diagnosis_log_0, path:"/data1/log/", filename:"leo_object_storage_0"
+* opening log file is /data1/log/leo_object_storage_0.20180905.16.2
+id:leo_diagnosis_log_10000, path:"/data2/log/", filename:"leo_object_storage_10000"
+* opening log file is /data2/log/leo_object_storage_10000.20180905.16.2
+id:leo_diagnosis_log_20000, path:"/data3/log/", filename:"leo_object_storage_20000"
+* opening log file is /data3/log/leo_object_storage_20000.20180905.16.2
+id:leo_diagnosis_log_30000, path:"/data4/log/", filename:"leo_object_storage_30000"
+* opening log file is /data4/log/leo_object_storage_30000.20180905.16.2
+id:leo_diagnosis_log_40000, path:"/data5/log/", filename:"leo_object_storage_40000"
+* opening log file is /data5/log/leo_object_storage_40000.20180905.16.2
+id:leo_diagnosis_log_50000, path:"/data6/log/", filename:"leo_object_storage_50000"
+* opening log file is /data6/log/leo_object_storage_50000.20180905.16.2
+id:leo_diagnosis_log_60000, path:"/data7/log/", filename:"leo_object_storage_60000"
+* opening log file is /data7/log/leo_object_storage_60000.20180905.16.2
+Eshell V8.3  (abort with ^G)
+(storage_01@10.0.1.106)1> 
+===== ALIVE Wed Sep  5 16:35:09 CST 2018
+
+===== Wed Sep  5 16:42:12 CST 2018
+[os_mon] cpu supervisor port (cpu_sup): Erlang has closed
+[os_mon] memory supervisor port (memsup): Erlang has closed
+
+=====
+===== LOGGING STARTED Wed Sep  5 16:46:52 CST 2018
+=====
+Config path: /usr/local/leofs/1.4.2/leo_storage/etc
+Exec: /usr/local/leofs/1.4.2/leo_storage/erts-8.3/bin/erlexec -heart -boot /usr/local/leofs/1.4.2/leo_storage/releases/1/leo_storage -mode minimal -config /usr/local/leofs/1.4.2/leo_storage/etc/app.config -args_file /usr/local/leofs/1.4.2/leo_storage/etc/vm.args -- console
+Root: /usr/local/leofs/1.4.2/leo_storage
+heart_beat_kill_pid = 95545
+Erlang/OTP 19 [erts-8.3] [source] [64-bit] [smp:4:4] [async-threads:32] [kernel-poll:true]
+
+
+=INFO REPORT==== 5-Sep-2018::16:46:54 ===
+Setup Lager Logger API
+id:leo_diagnosis_log_7, path:"/data1/log/", filename:"leo_object_storage_7"
+* opening log file is /data1/log/leo_object_storage_7.20180905.16.1
+id:leo_diagnosis_log_10007, path:"/data2/log/", filename:"leo_object_storage_10007"
+* opening log file is /data2/log/leo_object_storage_10007.20180905.16.1
+id:leo_diagnosis_log_20007, path:"/data3/log/", filename:"leo_object_storage_20007"
+* opening log file is /data3/log/leo_object_storage_20007.20180905.16.1
+id:leo_diagnosis_log_30007, path:"/data4/log/", filename:"leo_object_storage_30007"
+* opening log file is /data4/log/leo_object_storage_30007.20180905.16.1
+id:leo_diagnosis_log_40007, path:"/data5/log/", filename:"leo_object_storage_40007"
+* opening log file is /data5/log/leo_object_storage_40007.20180905.16.1
+id:leo_diagnosis_log_50007, path:"/data6/log/", filename:"leo_object_storage_50007"
+* opening log file is /data6/log/leo_object_storage_50007.20180905.16.1
+id:leo_diagnosis_log_60007, path:"/data7/log/", filename:"leo_object_storage_60007"
+* opening log file is /data7/log/leo_object_storage_60007.20180905.16.1
+id:leo_diagnosis_log_6, path:"/data1/log/", filename:"leo_object_storage_6"
+* opening log file is /data1/log/leo_object_storage_6.20180905.16.1
+id:leo_diagnosis_log_10006, path:"/data2/log/", filename:"leo_object_storage_10006"
+* opening log file is /data2/log/leo_object_storage_10006.20180905.16.1
+id:leo_diagnosis_log_20006, path:"/data3/log/", filename:"leo_object_storage_20006"
+* opening log file is /data3/log/leo_object_storage_20006.20180905.16.1
+id:leo_diagnosis_log_30006, path:"/data4/log/", filename:"leo_object_storage_30006"
+* opening log file is /data4/log/leo_object_storage_30006.20180905.16.1
+id:leo_diagnosis_log_40006, path:"/data5/log/", filename:"leo_object_storage_40006"
+* opening log file is /data5/log/leo_object_storage_40006.20180905.16.1
+id:leo_diagnosis_log_50006, path:"/data6/log/", filename:"leo_object_storage_50006"
+* opening log file is /data6/log/leo_object_storage_50006.20180905.16.1
+id:leo_diagnosis_log_60006, path:"/data7/log/", filename:"leo_object_storage_60006"
+* opening log file is /data7/log/leo_object_storage_60006.20180905.16.1
+id:leo_diagnosis_log_5, path:"/data1/log/", filename:"leo_object_storage_5"
+* opening log file is /data1/log/leo_object_storage_5.20180905.16.1
+id:leo_diagnosis_log_10005, path:"/data2/log/", filename:"leo_object_storage_10005"
+* opening log file is /data2/log/leo_object_storage_10005.20180905.16.1
+id:leo_diagnosis_log_20005, path:"/data3/log/", filename:"leo_object_storage_20005"
+* opening log file is /data3/log/leo_object_storage_20005.20180905.16.1
+id:leo_diagnosis_log_30005, path:"/data4/log/", filename:"leo_object_storage_30005"
+* opening log file is /data4/log/leo_object_storage_30005.20180905.16.1
+id:leo_diagnosis_log_40005, path:"/data5/log/", filename:"leo_object_storage_40005"
+* opening log file is /data5/log/leo_object_storage_40005.20180905.16.1
+id:leo_diagnosis_log_50005, path:"/data6/log/", filename:"leo_object_storage_50005"
+* opening log file is /data6/log/leo_object_storage_50005.20180905.16.1
+id:leo_diagnosis_log_60005, path:"/data7/log/", filename:"leo_object_storage_60005"
+* opening log file is /data7/log/leo_object_storage_60005.20180905.16.1
+id:leo_diagnosis_log_4, path:"/data1/log/", filename:"leo_object_storage_4"
+* opening log file is /data1/log/leo_object_storage_4.20180905.16.1
+id:leo_diagnosis_log_10004, path:"/data2/log/", filename:"leo_object_storage_10004"
+* opening log file is /data2/log/leo_object_storage_10004.20180905.16.1
+id:leo_diagnosis_log_20004, path:"/data3/log/", filename:"leo_object_storage_20004"
+* opening log file is /data3/log/leo_object_storage_20004.20180905.16.1
+id:leo_diagnosis_log_30004, path:"/data4/log/", filename:"leo_object_storage_30004"
+* opening log file is /data4/log/leo_object_storage_30004.20180905.16.1
+id:leo_diagnosis_log_40004, path:"/data5/log/", filename:"leo_object_storage_40004"
+* opening log file is /data5/log/leo_object_storage_40004.20180905.16.1
+id:leo_diagnosis_log_50004, path:"/data6/log/", filename:"leo_object_storage_50004"
+* opening log file is /data6/log/leo_object_storage_50004.20180905.16.1
+id:leo_diagnosis_log_60004, path:"/data7/log/", filename:"leo_object_storage_60004"
+* opening log file is /data7/log/leo_object_storage_60004.20180905.16.1
+id:leo_diagnosis_log_3, path:"/data1/log/", filename:"leo_object_storage_3"
+* opening log file is /data1/log/leo_object_storage_3.20180905.16.1
+id:leo_diagnosis_log_10003, path:"/data2/log/", filename:"leo_object_storage_10003"
+* opening log file is /data2/log/leo_object_storage_10003.20180905.16.1
+id:leo_diagnosis_log_20003, path:"/data3/log/", filename:"leo_object_storage_20003"
+* opening log file is /data3/log/leo_object_storage_20003.20180905.16.1
+id:leo_diagnosis_log_30003, path:"/data4/log/", filename:"leo_object_storage_30003"
+* opening log file is /data4/log/leo_object_storage_30003.20180905.16.1
+id:leo_diagnosis_log_40003, path:"/data5/log/", filename:"leo_object_storage_40003"
+* opening log file is /data5/log/leo_object_storage_40003.20180905.16.1
+id:leo_diagnosis_log_50003, path:"/data6/log/", filename:"leo_object_storage_50003"
+* opening log file is /data6/log/leo_object_storage_50003.20180905.16.1
+id:leo_diagnosis_log_60003, path:"/data7/log/", filename:"leo_object_storage_60003"
+* opening log file is /data7/log/leo_object_storage_60003.20180905.16.1
+id:leo_diagnosis_log_2, path:"/data1/log/", filename:"leo_object_storage_2"
+* opening log file is /data1/log/leo_object_storage_2.20180905.16.1
+id:leo_diagnosis_log_10002, path:"/data2/log/", filename:"leo_object_storage_10002"
+* opening log file is /data2/log/leo_object_storage_10002.20180905.16.1
+id:leo_diagnosis_log_20002, path:"/data3/log/", filename:"leo_object_storage_20002"
+* opening log file is /data3/log/leo_object_storage_20002.20180905.16.1
+id:leo_diagnosis_log_30002, path:"/data4/log/", filename:"leo_object_storage_30002"
+* opening log file is /data4/log/leo_object_storage_30002.20180905.16.1
+id:leo_diagnosis_log_40002, path:"/data5/log/", filename:"leo_object_storage_40002"
+* opening log file is /data5/log/leo_object_storage_40002.20180905.16.1
+id:leo_diagnosis_log_50002, path:"/data6/log/", filename:"leo_object_storage_50002"
+* opening log file is /data6/log/leo_object_storage_50002.20180905.16.1
+id:leo_diagnosis_log_60002, path:"/data7/log/", filename:"leo_object_storage_60002"
+* opening log file is /data7/log/leo_object_storage_60002.20180905.16.1
+id:leo_diagnosis_log_1, path:"/data1/log/", filename:"leo_object_storage_1"
+* opening log file is /data1/log/leo_object_storage_1.20180905.16.1
+id:leo_diagnosis_log_10001, path:"/data2/log/", filename:"leo_object_storage_10001"
+* opening log file is /data2/log/leo_object_storage_10001.20180905.16.1
+id:leo_diagnosis_log_20001, path:"/data3/log/", filename:"leo_object_storage_20001"
+* opening log file is /data3/log/leo_object_storage_20001.20180905.16.1
+id:leo_diagnosis_log_30001, path:"/data4/log/", filename:"leo_object_storage_30001"
+* opening log file is /data4/log/leo_object_storage_30001.20180905.16.1
+id:leo_diagnosis_log_40001, path:"/data5/log/", filename:"leo_object_storage_40001"
+* opening log file is /data5/log/leo_object_storage_40001.20180905.16.1
+id:leo_diagnosis_log_50001, path:"/data6/log/", filename:"leo_object_storage_50001"
+* opening log file is /data6/log/leo_object_storage_50001.20180905.16.1
+id:leo_diagnosis_log_60001, path:"/data7/log/", filename:"leo_object_storage_60001"
+* opening log file is /data7/log/leo_object_storage_60001.20180905.16.1
+id:leo_diagnosis_log_0, path:"/data1/log/", filename:"leo_object_storage_0"
+* opening log file is /data1/log/leo_object_storage_0.20180905.16.1
+id:leo_diagnosis_log_10000, path:"/data2/log/", filename:"leo_object_storage_10000"
+* opening log file is /data2/log/leo_object_storage_10000.20180905.16.1
+id:leo_diagnosis_log_20000, path:"/data3/log/", filename:"leo_object_storage_20000"
+* opening log file is /data3/log/leo_object_storage_20000.20180905.16.1
+id:leo_diagnosis_log_30000, path:"/data4/log/", filename:"leo_object_storage_30000"
+* opening log file is /data4/log/leo_object_storage_30000.20180905.16.1
+id:leo_diagnosis_log_40000, path:"/data5/log/", filename:"leo_object_storage_40000"
+* opening log file is /data5/log/leo_object_storage_40000.20180905.16.1
+id:leo_diagnosis_log_50000, path:"/data6/log/", filename:"leo_object_storage_50000"
+* opening log file is /data6/log/leo_object_storage_50000.20180905.16.1
+id:leo_diagnosis_log_60000, path:"/data7/log/", filename:"leo_object_storage_60000"
+* opening log file is /data7/log/leo_object_storage_60000.20180905.16.1
+Eshell V8.3  (abort with ^G)
+(storage_01@10.0.1.106)1> 
+===== Wed Sep  5 16:53:17 CST 2018
+[os_mon] cpu supervisor port (cpu_sup): Erlang has closed
+[os_mon] memory supervisor port (memsup): Erlang has closed
+
+=====
+===== LOGGING STARTED Wed Sep  5 16:54:13 CST 2018
+=====
+Config path: /usr/local/leofs/1.4.2/leo_storage/etc
+Exec: /usr/local/leofs/1.4.2/leo_storage/erts-8.3/bin/erlexec -heart -boot /usr/local/leofs/1.4.2/leo_storage/releases/1/leo_storage -mode minimal -config /usr/local/leofs/1.4.2/leo_storage/etc/app.config -args_file /usr/local/leofs/1.4.2/leo_storage/etc/vm.args -- console
+Root: /usr/local/leofs/1.4.2/leo_storage
+heart_beat_kill_pid = 99285
+Erlang/OTP 19 [erts-8.3] [source] [64-bit] [smp:4:4] [async-threads:32] [kernel-poll:true]
+
+
+=INFO REPORT==== 5-Sep-2018::16:54:14 ===
+Setup Lager Logger API
+id:leo_diagnosis_log_7, path:"/data1/log/", filename:"leo_object_storage_7"
+* opening log file is /data1/log/leo_object_storage_7.20180905.16.1
+id:leo_diagnosis_log_10007, path:"/data2/log/", filename:"leo_object_storage_10007"
+* opening log file is /data2/log/leo_object_storage_10007.20180905.16.1
+id:leo_diagnosis_log_20007, path:"/data3/log/", filename:"leo_object_storage_20007"
+* opening log file is /data3/log/leo_object_storage_20007.20180905.16.1
+id:leo_diagnosis_log_30007, path:"/data4/log/", filename:"leo_object_storage_30007"
+* opening log file is /data4/log/leo_object_storage_30007.20180905.16.1
+id:leo_diagnosis_log_40007, path:"/data5/log/", filename:"leo_object_storage_40007"
+* opening log file is /data5/log/leo_object_storage_40007.20180905.16.1
+id:leo_diagnosis_log_50007, path:"/data6/log/", filename:"leo_object_storage_50007"
+* opening log file is /data6/log/leo_object_storage_50007.20180905.16.1
+id:leo_diagnosis_log_60007, path:"/data7/log/", filename:"leo_object_storage_60007"
+* opening log file is /data7/log/leo_object_storage_60007.20180905.16.1
+id:leo_diagnosis_log_6, path:"/data1/log/", filename:"leo_object_storage_6"
+* opening log file is /data1/log/leo_object_storage_6.20180905.16.1
+id:leo_diagnosis_log_10006, path:"/data2/log/", filename:"leo_object_storage_10006"
+* opening log file is /data2/log/leo_object_storage_10006.20180905.16.1
+id:leo_diagnosis_log_20006, path:"/data3/log/", filename:"leo_object_storage_20006"
+* opening log file is /data3/log/leo_object_storage_20006.20180905.16.1
+id:leo_diagnosis_log_30006, path:"/data4/log/", filename:"leo_object_storage_30006"
+* opening log file is /data4/log/leo_object_storage_30006.20180905.16.1
+id:leo_diagnosis_log_40006, path:"/data5/log/", filename:"leo_object_storage_40006"
+* opening log file is /data5/log/leo_object_storage_40006.20180905.16.1
+id:leo_diagnosis_log_50006, path:"/data6/log/", filename:"leo_object_storage_50006"
+* opening log file is /data6/log/leo_object_storage_50006.20180905.16.1
+id:leo_diagnosis_log_60006, path:"/data7/log/", filename:"leo_object_storage_60006"
+* opening log file is /data7/log/leo_object_storage_60006.20180905.16.1
+id:leo_diagnosis_log_5, path:"/data1/log/", filename:"leo_object_storage_5"
+* opening log file is /data1/log/leo_object_storage_5.20180905.16.1
+id:leo_diagnosis_log_10005, path:"/data2/log/", filename:"leo_object_storage_10005"
+* opening log file is /data2/log/leo_object_storage_10005.20180905.16.1
+id:leo_diagnosis_log_20005, path:"/data3/log/", filename:"leo_object_storage_20005"
+* opening log file is /data3/log/leo_object_storage_20005.20180905.16.1
+id:leo_diagnosis_log_30005, path:"/data4/log/", filename:"leo_object_storage_30005"
+* opening log file is /data4/log/leo_object_storage_30005.20180905.16.1
+id:leo_diagnosis_log_40005, path:"/data5/log/", filename:"leo_object_storage_40005"
+* opening log file is /data5/log/leo_object_storage_40005.20180905.16.1
+id:leo_diagnosis_log_50005, path:"/data6/log/", filename:"leo_object_storage_50005"
+* opening log file is /data6/log/leo_object_storage_50005.20180905.16.1
+id:leo_diagnosis_log_60005, path:"/data7/log/", filename:"leo_object_storage_60005"
+* opening log file is /data7/log/leo_object_storage_60005.20180905.16.1
+id:leo_diagnosis_log_4, path:"/data1/log/", filename:"leo_object_storage_4"
+* opening log file is /data1/log/leo_object_storage_4.20180905.16.1
+id:leo_diagnosis_log_10004, path:"/data2/log/", filename:"leo_object_storage_10004"
+* opening log file is /data2/log/leo_object_storage_10004.20180905.16.1
+id:leo_diagnosis_log_20004, path:"/data3/log/", filename:"leo_object_storage_20004"
+* opening log file is /data3/log/leo_object_storage_20004.20180905.16.1
+id:leo_diagnosis_log_30004, path:"/data4/log/", filename:"leo_object_storage_30004"
+* opening log file is /data4/log/leo_object_storage_30004.20180905.16.1
+id:leo_diagnosis_log_40004, path:"/data5/log/", filename:"leo_object_storage_40004"
+* opening log file is /data5/log/leo_object_storage_40004.20180905.16.1
+id:leo_diagnosis_log_50004, path:"/data6/log/", filename:"leo_object_storage_50004"
+* opening log file is /data6/log/leo_object_storage_50004.20180905.16.1
+id:leo_diagnosis_log_60004, path:"/data7/log/", filename:"leo_object_storage_60004"
+* opening log file is /data7/log/leo_object_storage_60004.20180905.16.1
+id:leo_diagnosis_log_3, path:"/data1/log/", filename:"leo_object_storage_3"
+* opening log file is /data1/log/leo_object_storage_3.20180905.16.1
+id:leo_diagnosis_log_10003, path:"/data2/log/", filename:"leo_object_storage_10003"
+* opening log file is /data2/log/leo_object_storage_10003.20180905.16.1
+id:leo_diagnosis_log_20003, path:"/data3/log/", filename:"leo_object_storage_20003"
+* opening log file is /data3/log/leo_object_storage_20003.20180905.16.1
+id:leo_diagnosis_log_30003, path:"/data4/log/", filename:"leo_object_storage_30003"
+* opening log file is /data4/log/leo_object_storage_30003.20180905.16.1
+id:leo_diagnosis_log_40003, path:"/data5/log/", filename:"leo_object_storage_40003"
+* opening log file is /data5/log/leo_object_storage_40003.20180905.16.1
+id:leo_diagnosis_log_50003, path:"/data6/log/", filename:"leo_object_storage_50003"
+* opening log file is /data6/log/leo_object_storage_50003.20180905.16.1
+id:leo_diagnosis_log_60003, path:"/data7/log/", filename:"leo_object_storage_60003"
+* opening log file is /data7/log/leo_object_storage_60003.20180905.16.1
+id:leo_diagnosis_log_2, path:"/data1/log/", filename:"leo_object_storage_2"
+* opening log file is /data1/log/leo_object_storage_2.20180905.16.1
+id:leo_diagnosis_log_10002, path:"/data2/log/", filename:"leo_object_storage_10002"
+* opening log file is /data2/log/leo_object_storage_10002.20180905.16.1
+id:leo_diagnosis_log_20002, path:"/data3/log/", filename:"leo_object_storage_20002"
+* opening log file is /data3/log/leo_object_storage_20002.20180905.16.1
+id:leo_diagnosis_log_30002, path:"/data4/log/", filename:"leo_object_storage_30002"
+* opening log file is /data4/log/leo_object_storage_30002.20180905.16.1
+id:leo_diagnosis_log_40002, path:"/data5/log/", filename:"leo_object_storage_40002"
+* opening log file is /data5/log/leo_object_storage_40002.20180905.16.1
+id:leo_diagnosis_log_50002, path:"/data6/log/", filename:"leo_object_storage_50002"
+* opening log file is /data6/log/leo_object_storage_50002.20180905.16.1
+id:leo_diagnosis_log_60002, path:"/data7/log/", filename:"leo_object_storage_60002"
+* opening log file is /data7/log/leo_object_storage_60002.20180905.16.1
+id:leo_diagnosis_log_1, path:"/data1/log/", filename:"leo_object_storage_1"
+* opening log file is /data1/log/leo_object_storage_1.20180905.16.1
+id:leo_diagnosis_log_10001, path:"/data2/log/", filename:"leo_object_storage_10001"
+* opening log file is /data2/log/leo_object_storage_10001.20180905.16.1
+id:leo_diagnosis_log_20001, path:"/data3/log/", filename:"leo_object_storage_20001"
+* opening log file is /data3/log/leo_object_storage_20001.20180905.16.1
+id:leo_diagnosis_log_30001, path:"/data4/log/", filename:"leo_object_storage_30001"
+* opening log file is /data4/log/leo_object_storage_30001.20180905.16.1
+id:leo_diagnosis_log_40001, path:"/data5/log/", filename:"leo_object_storage_40001"
+* opening log file is /data5/log/leo_object_storage_40001.20180905.16.1
+id:leo_diagnosis_log_50001, path:"/data6/log/", filename:"leo_object_storage_50001"
+* opening log file is /data6/log/leo_object_storage_50001.20180905.16.1
+id:leo_diagnosis_log_60001, path:"/data7/log/", filename:"leo_object_storage_60001"
+* opening log file is /data7/log/leo_object_storage_60001.20180905.16.1
+id:leo_diagnosis_log_0, path:"/data1/log/", filename:"leo_object_storage_0"
+* opening log file is /data1/log/leo_object_storage_0.20180905.16.1
+id:leo_diagnosis_log_10000, path:"/data2/log/", filename:"leo_object_storage_10000"
+* opening log file is /data2/log/leo_object_storage_10000.20180905.16.1
+id:leo_diagnosis_log_20000, path:"/data3/log/", filename:"leo_object_storage_20000"
+* opening log file is /data3/log/leo_object_storage_20000.20180905.16.1
+id:leo_diagnosis_log_30000, path:"/data4/log/", filename:"leo_object_storage_30000"
+* opening log file is /data4/log/leo_object_storage_30000.20180905.16.1
+id:leo_diagnosis_log_40000, path:"/data5/log/", filename:"leo_object_storage_40000"
+* opening log file is /data5/log/leo_object_storage_40000.20180905.16.1
+id:leo_diagnosis_log_50000, path:"/data6/log/", filename:"leo_object_storage_50000"
+* opening log file is /data6/log/leo_object_storage_50000.20180905.16.1
+id:leo_diagnosis_log_60000, path:"/data7/log/", filename:"leo_object_storage_60000"
+* opening log file is /data7/log/leo_object_storage_60000.20180905.16.1
+Eshell V8.3  (abort with ^G)
+(storage_01@10.0.1.106)1> 
+===== Wed Sep  5 17:00:14 CST 2018
+* closing log file is /data1/log/leo_object_storage_7.20180905.16.1
+* opening log file is /data1/log/leo_object_storage_7.20180905.17.1
+* closing log file is /data2/log/leo_object_storage_10007.20180905.16.1
+* opening log file is /data2/log/leo_object_storage_10007.20180905.17.1
+* closing log file is /data3/log/leo_object_storage_20007.20180905.16.1
+* opening log file is /data3/log/leo_object_storage_20007.20180905.17.1
+* closing log file is /data4/log/leo_object_storage_30007.20180905.16.1
+* opening log file is /data4/log/leo_object_storage_30007.20180905.17.1
+* closing log file is /data5/log/leo_object_storage_40007.20180905.16.1
+* opening log file is /data5/log/leo_object_storage_40007.20180905.17.1
+* closing log file is /data6/log/leo_object_storage_50007.20180905.16.1
+* opening log file is /data6/log/leo_object_storage_50007.20180905.17.1
+* closing log file is /data7/log/leo_object_storage_60007.20180905.16.1
+* opening log file is /data7/log/leo_object_storage_60007.20180905.17.1
+* closing log file is /data1/log/leo_object_storage_6.20180905.16.1
+* opening log file is /data1/log/leo_object_storage_6.20180905.17.1
+* closing log file is /data2/log/leo_object_storage_10006.20180905.16.1
+* opening log file is /data2/log/leo_object_storage_10006.20180905.17.1
+* closing log file is /data3/log/leo_object_storage_20006.20180905.16.1
+* opening log file is /data3/log/leo_object_storage_20006.20180905.17.1
+* closing log file is /data4/log/leo_object_storage_30006.20180905.16.1
+* opening log file is /data4/log/leo_object_storage_30006.20180905.17.1
+* closing log file is /data5/log/leo_object_storage_40006.20180905.16.1
+* opening log file is /data5/log/leo_object_storage_40006.20180905.17.1
+* closing log file is /data6/log/leo_object_storage_50006.20180905.16.1
+* opening log file is /data6/log/leo_object_storage_50006.20180905.17.1
+* closing log file is /data7/log/leo_object_storage_60006.20180905.16.1
+* opening log file is /data7/log/leo_object_storage_60006.20180905.17.1
+* closing log file is /data1/log/leo_object_storage_5.20180905.16.1
+* opening log file is /data1/log/leo_object_storage_5.20180905.17.1
+* closing log file is /data2/log/leo_object_storage_10005.20180905.16.1
+* opening log file is /data2/log/leo_object_storage_10005.20180905.17.1
+* closing log file is /data3/log/leo_object_storage_20005.20180905.16.1
+* opening log file is /data3/log/leo_object_storage_20005.20180905.17.1
+* closing log file is /data4/log/leo_object_storage_30005.20180905.16.1
+* opening log file is /data4/log/leo_object_storage_30005.20180905.17.1
+* closing log file is /data5/log/leo_object_storage_40005.20180905.16.1
+* opening log file is /data5/log/leo_object_storage_40005.20180905.17.1
+* closing log file is /data6/log/leo_object_storage_50005.20180905.16.1
+* opening log file is /data6/log/leo_object_storage_50005.20180905.17.1
+* closing log file is /data7/log/leo_object_storage_60005.20180905.16.1
+* opening log file is /data7/log/leo_object_storage_60005.20180905.17.1
+* closing log file is /data1/log/leo_object_storage_4.20180905.16.1
+* opening log file is /data1/log/leo_object_storage_4.20180905.17.1
+* closing log file is /data2/log/leo_object_storage_10004.20180905.16.1
+* opening log file is /data2/log/leo_object_storage_10004.20180905.17.1
+* closing log file is /data3/log/leo_object_storage_20004.20180905.16.1
+* opening log file is /data3/log/leo_object_storage_20004.20180905.17.1
+* closing log file is /data4/log/leo_object_storage_30004.20180905.16.1
+* opening log file is /data4/log/leo_object_storage_30004.20180905.17.1
+* closing log file is /data5/log/leo_object_storage_40004.20180905.16.1
+* opening log file is /data5/log/leo_object_storage_40004.20180905.17.1
+* closing log file is /data6/log/leo_object_storage_50004.20180905.16.1
+* opening log file is /data6/log/leo_object_storage_50004.20180905.17.1
+* closing log file is /data7/log/leo_object_storage_60004.20180905.16.1
+* opening log file is /data7/log/leo_object_storage_60004.20180905.17.1
+* closing log file is /data1/log/leo_object_storage_3.20180905.16.1
+* opening log file is /data1/log/leo_object_storage_3.20180905.17.1
+* closing log file is /data2/log/leo_object_storage_10003.20180905.16.1
+* opening log file is /data2/log/leo_object_storage_10003.20180905.17.1
+* closing log file is /data3/log/leo_object_storage_20003.20180905.16.1
+* opening log file is /data3/log/leo_object_storage_20003.20180905.17.1
+* closing log file is /data4/log/leo_object_storage_30003.20180905.16.1
+* opening log file is /data4/log/leo_object_storage_30003.20180905.17.1
+* closing log file is /data5/log/leo_object_storage_40003.20180905.16.1
+* opening log file is /data5/log/leo_object_storage_40003.20180905.17.1
+* closing log file is /data6/log/leo_object_storage_50003.20180905.16.1
+* opening log file is /data6/log/leo_object_storage_50003.20180905.17.1
+* closing log file is /data7/log/leo_object_storage_60003.20180905.16.1
+* opening log file is /data7/log/leo_object_storage_60003.20180905.17.1
+* closing log file is /data1/log/leo_object_storage_2.20180905.16.1
+* opening log file is /data1/log/leo_object_storage_2.20180905.17.1
+* closing log file is /data2/log/leo_object_storage_10002.20180905.16.1
+* opening log file is /data2/log/leo_object_storage_10002.20180905.17.1
+* closing log file is /data3/log/leo_object_storage_20002.20180905.16.1
+* opening log file is /data3/log/leo_object_storage_20002.20180905.17.1
+* closing log file is /data4/log/leo_object_storage_30002.20180905.16.1
+* opening log file is /data4/log/leo_object_storage_30002.20180905.17.1
+* closing log file is /data5/log/leo_object_storage_40002.20180905.16.1
+* opening log file is /data5/log/leo_object_storage_40002.20180905.17.1
+* closing log file is /data6/log/leo_object_storage_50002.20180905.16.1
+* opening log file is /data6/log/leo_object_storage_50002.20180905.17.1
+* closing log file is /data7/log/leo_object_storage_60002.20180905.16.1
+* opening log file is /data7/log/leo_object_storage_60002.20180905.17.1
+* closing log file is /data1/log/leo_object_storage_1.20180905.16.1
+* opening log file is /data1/log/leo_object_storage_1.20180905.17.1
+* closing log file is /data2/log/leo_object_storage_10001.20180905.16.1
+* opening log file is /data2/log/leo_object_storage_10001.20180905.17.1
+* closing log file is /data3/log/leo_object_storage_20001.20180905.16.1
+* opening log file is /data3/log/leo_object_storage_20001.20180905.17.1
+* closing log file is /data4/log/leo_object_storage_30001.20180905.16.1
+* opening log file is /data4/log/leo_object_storage_30001.20180905.17.1
+* closing log file is /data5/log/leo_object_storage_40001.20180905.16.1
+* opening log file is /data5/log/leo_object_storage_40001.20180905.17.1
+* closing log file is /data6/log/leo_object_storage_50001.20180905.16.1
+* opening log file is /data6/log/leo_object_storage_50001.20180905.17.1
+* closing log file is /data7/log/leo_object_storage_60001.20180905.16.1
+* opening log file is /data7/log/leo_object_storage_60001.20180905.17.1
+* closing log file is /data1/log/leo_object_storage_0.20180905.16.1
+* opening log file is /data1/log/leo_object_storage_0.20180905.17.1
+* closing log file is /data2/log/leo_object_storage_10000.20180905.16.1
+* opening log file is /data2/log/leo_object_storage_10000.20180905.17.1
+* closing log file is /data3/log/leo_object_storage_20000.20180905.16.1
+* opening log file is /data3/log/leo_object_storage_20000.20180905.17.1
+* closing log file is /data4/log/leo_object_storage_30000.20180905.16.1
+* opening log file is /data4/log/leo_object_storage_30000.20180905.17.1
+* closing log file is /data5/log/leo_object_storage_40000.20180905.16.1
+* opening log file is /data5/log/leo_object_storage_40000.20180905.17.1
+* closing log file is /data6/log/leo_object_storage_50000.20180905.16.1
+* opening log file is /data6/log/leo_object_storage_50000.20180905.17.1
+* closing log file is /data7/log/leo_object_storage_60000.20180905.16.1
+* opening log file is /data7/log/leo_object_storage_60000.20180905.17.1
+
+===== ALIVE Wed Sep  5 17:15:14 CST 2018
+
+===== ALIVE Wed Sep  5 17:30:14 CST 2018
+
+===== ALIVE Wed Sep  5 17:45:14 CST 2018
+
+===== Wed Sep  5 18:00:14 CST 2018
+* closing log file is /data1/log/leo_object_storage_7.20180905.17.1
+* opening log file is /data1/log/leo_object_storage_7.20180905.18.1
+* closing log file is /data2/log/leo_object_storage_10007.20180905.17.1
+* opening log file is /data2/log/leo_object_storage_10007.20180905.18.1
+* closing log file is /data3/log/leo_object_storage_20007.20180905.17.1
+* opening log file is /data3/log/leo_object_storage_20007.20180905.18.1
+* closing log file is /data4/log/leo_object_storage_30007.20180905.17.1
+* opening log file is /data4/log/leo_object_storage_30007.20180905.18.1
+* closing log file is /data5/log/leo_object_storage_40007.20180905.17.1
+* opening log file is /data5/log/leo_object_storage_40007.20180905.18.1
+* closing log file is /data6/log/leo_object_storage_50007.20180905.17.1
+* opening log file is /data6/log/leo_object_storage_50007.20180905.18.1
+* closing log file is /data7/log/leo_object_storage_60007.20180905.17.1
+* opening log file is /data7/log/leo_object_storage_60007.20180905.18.1
+* closing log file is /data1/log/leo_object_storage_6.20180905.17.1
+* opening log file is /data1/log/leo_object_storage_6.20180905.18.1
+* closing log file is /data2/log/leo_object_storage_10006.20180905.17.1
+* opening log file is /data2/log/leo_object_storage_10006.20180905.18.1
+* closing log file is /data3/log/leo_object_storage_20006.20180905.17.1
+* opening log file is /data3/log/leo_object_storage_20006.20180905.18.1
+* closing log file is /data4/log/leo_object_storage_30006.20180905.17.1
+* opening log file is /data4/log/leo_object_storage_30006.20180905.18.1
+* closing log file is /data5/log/leo_object_storage_40006.20180905.17.1
+* opening log file is /data5/log/leo_object_storage_40006.20180905.18.1
+* closing log file is /data6/log/leo_object_storage_50006.20180905.17.1
+* opening log file is /data6/log/leo_object_storage_50006.20180905.18.1
+* closing log file is /data7/log/leo_object_storage_60006.20180905.17.1
+* opening log file is /data7/log/leo_object_storage_60006.20180905.18.1
+* closing log file is /data1/log/leo_object_storage_5.20180905.17.1
+* opening log file is /data1/log/leo_object_storage_5.20180905.18.1
+* closing log file is /data2/log/leo_object_storage_10005.20180905.17.1
+* opening log file is /data2/log/leo_object_storage_10005.20180905.18.1
+* closing log file is /data3/log/leo_object_storage_20005.20180905.17.1
+* opening log file is /data3/log/leo_object_storage_20005.20180905.18.1
+* closing log file is /data4/log/leo_object_storage_30005.20180905.17.1
+* opening log file is /data4/log/leo_object_storage_30005.20180905.18.1
+* closing log file is /data5/log/leo_object_storage_40005.20180905.17.1
+* opening log file is /data5/log/leo_object_storage_40005.20180905.18.1
+* closing log file is /data6/log/leo_object_storage_50005.20180905.17.1
+* opening log file is /data6/log/leo_object_storage_50005.20180905.18.1
+* closing log file is /data7/log/leo_object_storage_60005.20180905.17.1
+* opening log file is /data7/log/leo_object_storage_60005.20180905.18.1
+* closing log file is /data1/log/leo_object_storage_4.20180905.17.1
+* opening log file is /data1/log/leo_object_storage_4.20180905.18.1
+* closing log file is /data2/log/leo_object_storage_10004.20180905.17.1
+* opening log file is /data2/log/leo_object_storage_10004.20180905.18.1
+* closing log file is /data3/log/leo_object_storage_20004.20180905.17.1
+* opening log file is /data3/log/leo_object_storage_20004.20180905.18.1
+* closing log file is /data4/log/leo_object_storage_30004.20180905.17.1
+* opening log file is /data4/log/leo_object_storage_30004.20180905.18.1
+* closing log file is /data5/log/leo_object_storage_40004.20180905.17.1
+* opening log file is /data5/log/leo_object_storage_40004.20180905.18.1
+* closing log file is /data6/log/leo_object_storage_50004.20180905.17.1
+* opening log file is /data6/log/leo_object_storage_50004.20180905.18.1
+* closing log file is /data7/log/leo_object_storage_60004.20180905.17.1
+* opening log file is /data7/log/leo_object_storage_60004.20180905.18.1
+* closing log file is /data1/log/leo_object_storage_3.20180905.17.1
+* opening log file is /data1/log/leo_object_storage_3.20180905.18.1
+* closing log file is /data2/log/leo_object_storage_10003.20180905.17.1
+* opening log file is /data2/log/leo_object_storage_10003.20180905.18.1
+* closing log file is /data3/log/leo_object_storage_20003.20180905.17.1
+* opening log file is /data3/log/leo_object_storage_20003.20180905.18.1
+* closing log file is /data4/log/leo_object_storage_30003.20180905.17.1
+* opening log file is /data4/log/leo_object_storage_30003.20180905.18.1
+* closing log file is /data5/log/leo_object_storage_40003.20180905.17.1
+* opening log file is /data5/log/leo_object_storage_40003.20180905.18.1
+* closing log file is /data6/log/leo_object_storage_50003.20180905.17.1
+* opening log file is /data6/log/leo_object_storage_50003.20180905.18.1
+* closing log file is /data7/log/leo_object_storage_60003.20180905.17.1
+* opening log file is /data7/log/leo_object_storage_60003.20180905.18.1
+* closing log file is /data1/log/leo_object_storage_2.20180905.17.1
+* opening log file is /data1/log/leo_object_storage_2.20180905.18.1
+* closing log file is /data2/log/leo_object_storage_10002.20180905.17.1
+* opening log file is /data2/log/leo_object_storage_10002.20180905.18.1
+* closing log file is /data3/log/leo_object_storage_20002.20180905.17.1
+* opening log file is /data3/log/leo_object_storage_20002.20180905.18.1
+* closing log file is /data4/log/leo_object_storage_30002.20180905.17.1
+* opening log file is /data4/log/leo_object_storage_30002.20180905.18.1
+* closing log file is /data5/log/leo_object_storage_40002.20180905.17.1
+* opening log file is /data5/log/leo_object_storage_40002.20180905.18.1
+* closing log file is /data6/log/leo_object_storage_50002.20180905.17.1
+* opening log file is /data6/log/leo_object_storage_50002.20180905.18.1
+* closing log file is /data7/log/leo_object_storage_60002.20180905.17.1
+* opening log file is /data7/log/leo_object_storage_60002.20180905.18.1
+* closing log file is /data1/log/leo_object_storage_1.20180905.17.1
+* opening log file is /data1/log/leo_object_storage_1.20180905.18.1
+* closing log file is /data2/log/leo_object_storage_10001.20180905.17.1
+* opening log file is /data2/log/leo_object_storage_10001.20180905.18.1
+* closing log file is /data3/log/leo_object_storage_20001.20180905.17.1
+* opening log file is /data3/log/leo_object_storage_20001.20180905.18.1
+* closing log file is /data4/log/leo_object_storage_30001.20180905.17.1
+* opening log file is /data4/log/leo_object_storage_30001.20180905.18.1
+* closing log file is /data5/log/leo_object_storage_40001.20180905.17.1
+* opening log file is /data5/log/leo_object_storage_40001.20180905.18.1
+* closing log file is /data6/log/leo_object_storage_50001.20180905.17.1
+* opening log file is /data6/log/leo_object_storage_50001.20180905.18.1
+* closing log file is /data7/log/leo_object_storage_60001.20180905.17.1
+* opening log file is /data7/log/leo_object_storage_60001.20180905.18.1
+* closing log file is /data1/log/leo_object_storage_0.20180905.17.1
+* opening log file is /data1/log/leo_object_storage_0.20180905.18.1
+* closing log file is /data2/log/leo_object_storage_10000.20180905.17.1
+* opening log file is /data2/log/leo_object_storage_10000.20180905.18.1
+* closing log file is /data3/log/leo_object_storage_20000.20180905.17.1
+* opening log file is /data3/log/leo_object_storage_20000.20180905.18.1
+* closing log file is /data4/log/leo_object_storage_30000.20180905.17.1
+* opening log file is /data4/log/leo_object_storage_30000.20180905.18.1
+* closing log file is /data5/log/leo_object_storage_40000.20180905.17.1
+* opening log file is /data5/log/leo_object_storage_40000.20180905.18.1
+* closing log file is /data6/log/leo_object_storage_50000.20180905.17.1
+* opening log file is /data6/log/leo_object_storage_50000.20180905.18.1
+* closing log file is /data7/log/leo_object_storage_60000.20180905.17.1
+* opening log file is /data7/log/leo_object_storage_60000.20180905.18.1
+
+===== ALIVE Wed Sep  5 18:15:14 CST 2018
+
+===== ALIVE Wed Sep  5 18:30:14 CST 2018
+
+===== ALIVE Wed Sep  5 18:45:15 CST 2018
+
+===== Wed Sep  5 19:00:14 CST 2018
+* closing log file is /data1/log/leo_object_storage_7.20180905.18.1
+* opening log file is /data1/log/leo_object_storage_7.20180905.19.1
+* closing log file is /data2/log/leo_object_storage_10007.20180905.18.1
+* opening log file is /data2/log/leo_object_storage_10007.20180905.19.1
+* closing log file is /data3/log/leo_object_storage_20007.20180905.18.1
+* opening log file is /data3/log/leo_object_storage_20007.20180905.19.1
+* closing log file is /data4/log/leo_object_storage_30007.20180905.18.1
+* opening log file is /data4/log/leo_object_storage_30007.20180905.19.1
+* closing log file is /data5/log/leo_object_storage_40007.20180905.18.1
+* opening log file is /data5/log/leo_object_storage_40007.20180905.19.1
+* closing log file is /data6/log/leo_object_storage_50007.20180905.18.1
+* opening log file is /data6/log/leo_object_storage_50007.20180905.19.1
+* closing log file is /data7/log/leo_object_storage_60007.20180905.18.1
+* opening log file is /data7/log/leo_object_storage_60007.20180905.19.1
+* closing log file is /data1/log/leo_object_storage_6.20180905.18.1
+* opening log file is /data1/log/leo_object_storage_6.20180905.19.1
+* closing log file is /data2/log/leo_object_storage_10006.20180905.18.1
+* opening log file is /data2/log/leo_object_storage_10006.20180905.19.1
+* closing log file is /data3/log/leo_object_storage_20006.20180905.18.1
+* opening log file is /data3/log/leo_object_storage_20006.20180905.19.1
+* closing log file is /data4/log/leo_object_storage_30006.20180905.18.1
+* opening log file is /data4/log/leo_object_storage_30006.20180905.19.1
+* closing log file is /data5/log/leo_object_storage_40006.20180905.18.1
+* opening log file is /data5/log/leo_object_storage_40006.20180905.19.1
+* closing log file is /data6/log/leo_object_storage_50006.20180905.18.1
+* opening log file is /data6/log/leo_object_storage_50006.20180905.19.1
+* closing log file is /data7/log/leo_object_storage_60006.20180905.18.1
+* opening log file is /data7/log/leo_object_storage_60006.20180905.19.1
+* closing log file is /data1/log/leo_object_storage_5.20180905.18.1
+* opening log file is /data1/log/leo_object_storage_5.20180905.19.1
+* closing log file is /data2/log/leo_object_storage_10005.20180905.18.1
+* opening log file is /data2/log/leo_object_storage_10005.20180905.19.1
+* closing log file is /data3/log/leo_object_storage_20005.20180905.18.1
+* opening log file is /data3/log/leo_object_storage_20005.20180905.19.1
+* closing log file is /data4/log/leo_object_storage_30005.20180905.18.1
+* opening log file is /data4/log/leo_object_storage_30005.20180905.19.1
+* closing log file is /data5/log/leo_object_storage_40005.20180905.18.1
+* opening log file is /data5/log/leo_object_storage_40005.20180905.19.1
+* closing log file is /data6/log/leo_object_storage_50005.20180905.18.1
+* opening log file is /data6/log/leo_object_storage_50005.20180905.19.1
+* closing log file is /data7/log/leo_object_storage_60005.20180905.18.1
+* opening log file is /data7/log/leo_object_storage_60005.20180905.19.1
+* closing log file is /data1/log/leo_object_storage_4.20180905.18.1
+* opening log file is /data1/log/leo_object_storage_4.20180905.19.1
+* closing log file is /data2/log/leo_object_storage_10004.20180905.18.1
+* opening log file is /data2/log/leo_object_storage_10004.20180905.19.1
+* closing log file is /data3/log/leo_object_storage_20004.20180905.18.1
+* opening log file is /data3/log/leo_object_storage_20004.20180905.19.1
+* closing log file is /data4/log/leo_object_storage_30004.20180905.18.1
+* opening log file is /data4/log/leo_object_storage_30004.20180905.19.1
+* closing log file is /data5/log/leo_object_storage_40004.20180905.18.1
+* opening log file is /data5/log/leo_object_storage_40004.20180905.19.1
+* closing log file is /data6/log/leo_object_storage_50004.20180905.18.1
+* opening log file is /data6/log/leo_object_storage_50004.20180905.19.1
+* closing log file is /data7/log/leo_object_storage_60004.20180905.18.1
+* opening log file is /data7/log/leo_object_storage_60004.20180905.19.1
+* closing log file is /data1/log/leo_object_storage_3.20180905.18.1
+* opening log file is /data1/log/leo_object_storage_3.20180905.19.1
+* closing log file is /data2/log/leo_object_storage_10003.20180905.18.1
+* opening log file is /data2/log/leo_object_storage_10003.20180905.19.1
+* closing log file is /data3/log/leo_object_storage_20003.20180905.18.1
+* opening log file is /data3/log/leo_object_storage_20003.20180905.19.1
+* closing log file is /data4/log/leo_object_storage_30003.20180905.18.1
+* opening log file is /data4/log/leo_object_storage_30003.20180905.19.1
+* closing log file is /data5/log/leo_object_storage_40003.20180905.18.1
+* opening log file is /data5/log/leo_object_storage_40003.20180905.19.1
+* closing log file is /data6/log/leo_object_storage_50003.20180905.18.1
+* opening log file is /data6/log/leo_object_storage_50003.20180905.19.1
+* closing log file is /data7/log/leo_object_storage_60003.20180905.18.1
+* opening log file is /data7/log/leo_object_storage_60003.20180905.19.1
+* closing log file is /data1/log/leo_object_storage_2.20180905.18.1
+* opening log file is /data1/log/leo_object_storage_2.20180905.19.1
+* closing log file is /data2/log/leo_object_storage_10002.20180905.18.1
+* opening log file is /data2/log/leo_object_storage_10002.20180905.19.1
+* closing log file is /data3/log/leo_object_storage_20002.20180905.18.1
+* opening log file is /data3/log/leo_object_storage_20002.20180905.19.1
+* closing log file is /data4/log/leo_object_storage_30002.20180905.18.1
+* opening log file is /data4/log/leo_object_storage_30002.20180905.19.1
+* closing log file is /data5/log/leo_object_storage_40002.20180905.18.1
+* opening log file is /data5/log/leo_object_storage_40002.20180905.19.1
+* closing log file is /data6/log/leo_object_storage_50002.20180905.18.1
+* opening log file is /data6/log/leo_object_storage_50002.20180905.19.1
+* closing log file is /data7/log/leo_object_storage_60002.20180905.18.1
+* opening log file is /data7/log/leo_object_storage_60002.20180905.19.1
+* closing log file is /data1/log/leo_object_storage_1.20180905.18.1
+* opening log file is /data1/log/leo_object_storage_1.20180905.19.1
+* closing log file is /data2/log/leo_object_storage_10001.20180905.18.1
+* opening log file is /data2/log/leo_object_storage_10001.20180905.19.1
+* closing log file is /data3/log/leo_object_storage_20001.20180905.18.1
+* opening log file is /data3/log/leo_object_storage_20001.20180905.19.1
+* closing log file is /data4/log/leo_object_storage_30001.20180905.18.1
+* opening log file is /data4/log/leo_object_storage_30001.20180905.19.1
+* closing log file is /data5/log/leo_object_storage_40001.20180905.18.1
+* opening log file is /data5/log/leo_object_storage_40001.20180905.19.1
+* closing log file is /data6/log/leo_object_storage_50001.20180905.18.1
+* opening log file is /data6/log/leo_object_storage_50001.20180905.19.1
+* closing log file is /data7/log/leo_object_storage_60001.20180905.18.1
+* opening log file is /data7/log/leo_object_storage_60001.20180905.19.1
+* closing log file is /data1/log/leo_object_storage_0.20180905.18.1
+* opening log file is /data1/log/leo_object_storage_0.20180905.19.1
+* closing log file is /data2/log/leo_object_storage_10000.20180905.18.1
+* opening log file is /data2/log/leo_object_storage_10000.20180905.19.1
+* closing log file is /data3/log/leo_object_storage_20000.20180905.18.1
+* opening log file is /data3/log/leo_object_storage_20000.20180905.19.1
+* closing log file is /data4/log/leo_object_storage_30000.20180905.18.1
+* opening log file is /data4/log/leo_object_storage_30000.20180905.19.1
+* closing log file is /data5/log/leo_object_storage_40000.20180905.18.1
+* opening log file is /data5/log/leo_object_storage_40000.20180905.19.1
+* closing log file is /data6/log/leo_object_storage_50000.20180905.18.1
+* opening log file is /data6/log/leo_object_storage_50000.20180905.19.1
+* closing log file is /data7/log/leo_object_storage_60000.20180905.18.1
+* opening log file is /data7/log/leo_object_storage_60000.20180905.19.1
+
+===== ALIVE Wed Sep  5 19:15:14 CST 2018
+
+===== ALIVE Wed Sep  5 19:30:14 CST 2018
+
+===== ALIVE Wed Sep  5 19:45:15 CST 2018
+
+===== Wed Sep  5 20:00:14 CST 2018
+* closing log file is /data1/log/leo_object_storage_7.20180905.19.1
+* opening log file is /data1/log/leo_object_storage_7.20180905.20.1
+* closing log file is /data2/log/leo_object_storage_10007.20180905.19.1
+* opening log file is /data2/log/leo_object_storage_10007.20180905.20.1
+* closing log file is /data3/log/leo_object_storage_20007.20180905.19.1
+* opening log file is /data3/log/leo_object_storage_20007.20180905.20.1
+* closing log file is /data4/log/leo_object_storage_30007.20180905.19.1
+* opening log file is /data4/log/leo_object_storage_30007.20180905.20.1
+* closing log file is /data5/log/leo_object_storage_40007.20180905.19.1
+* opening log file is /data5/log/leo_object_storage_40007.20180905.20.1
+* closing log file is /data6/log/leo_object_storage_50007.20180905.19.1
+* opening log file is /data6/log/leo_object_storage_50007.20180905.20.1
+* closing log file is /data7/log/leo_object_storage_60007.20180905.19.1
+* opening log file is /data7/log/leo_object_storage_60007.20180905.20.1
+* closing log file is /data1/log/leo_object_storage_6.20180905.19.1
+* opening log file is /data1/log/leo_object_storage_6.20180905.20.1
+* closing log file is /data2/log/leo_object_storage_10006.20180905.19.1
+* opening log file is /data2/log/leo_object_storage_10006.20180905.20.1
+* closing log file is /data3/log/leo_object_storage_20006.20180905.19.1
+* opening log file is /data3/log/leo_object_storage_20006.20180905.20.1
+* closing log file is /data4/log/leo_object_storage_30006.20180905.19.1
+* opening log file is /data4/log/leo_object_storage_30006.20180905.20.1
+* closing log file is /data5/log/leo_object_storage_40006.20180905.19.1
+* opening log file is /data5/log/leo_object_storage_40006.20180905.20.1
+* closing log file is /data6/log/leo_object_storage_50006.20180905.19.1
+* opening log file is /data6/log/leo_object_storage_50006.20180905.20.1
+* closing log file is /data7/log/leo_object_storage_60006.20180905.19.1
+* opening log file is /data7/log/leo_object_storage_60006.20180905.20.1
+* closing log file is /data1/log/leo_object_storage_5.20180905.19.1
+* opening log file is /data1/log/leo_object_storage_5.20180905.20.1
+* closing log file is /data2/log/leo_object_storage_10005.20180905.19.1
+* opening log file is /data2/log/leo_object_storage_10005.20180905.20.1
+* closing log file is /data3/log/leo_object_storage_20005.20180905.19.1
+* opening log file is /data3/log/leo_object_storage_20005.20180905.20.1
+* closing log file is /data4/log/leo_object_storage_30005.20180905.19.1
+* opening log file is /data4/log/leo_object_storage_30005.20180905.20.1
+* closing log file is /data5/log/leo_object_storage_40005.20180905.19.1
+* opening log file is /data5/log/leo_object_storage_40005.20180905.20.1
+* closing log file is /data6/log/leo_object_storage_50005.20180905.19.1
+* opening log file is /data6/log/leo_object_storage_50005.20180905.20.1
+* closing log file is /data7/log/leo_object_storage_60005.20180905.19.1
+* opening log file is /data7/log/leo_object_storage_60005.20180905.20.1
+* closing log file is /data1/log/leo_object_storage_4.20180905.19.1
+* opening log file is /data1/log/leo_object_storage_4.20180905.20.1
+* closing log file is /data2/log/leo_object_storage_10004.20180905.19.1
+* opening log file is /data2/log/leo_object_storage_10004.20180905.20.1
+* closing log file is /data3/log/leo_object_storage_20004.20180905.19.1
+* opening log file is /data3/log/leo_object_storage_20004.20180905.20.1
+* closing log file is /data4/log/leo_object_storage_30004.20180905.19.1
+* opening log file is /data4/log/leo_object_storage_30004.20180905.20.1
+* closing log file is /data5/log/leo_object_storage_40004.20180905.19.1
+* opening log file is /data5/log/leo_object_storage_40004.20180905.20.1
+* closing log file is /data6/log/leo_object_storage_50004.20180905.19.1
+* opening log file is /data6/log/leo_object_storage_50004.20180905.20.1
+* closing log file is /data7/log/leo_object_storage_60004.20180905.19.1
+* opening log file is /data7/log/leo_object_storage_60004.20180905.20.1
+* closing log file is /data1/log/leo_object_storage_3.20180905.19.1
+* opening log file is /data1/log/leo_object_storage_3.20180905.20.1
+* closing log file is /data2/log/leo_object_storage_10003.20180905.19.1
+* opening log file is /data2/log/leo_object_storage_10003.20180905.20.1
+* closing log file is /data3/log/leo_object_storage_20003.20180905.19.1
+* opening log file is /data3/log/leo_object_storage_20003.20180905.20.1
+* closing log file is /data4/log/leo_object_storage_30003.20180905.19.1
+* opening log file is /data4/log/leo_object_storage_30003.20180905.20.1
+* closing log file is /data5/log/leo_object_storage_40003.20180905.19.1
+* opening log file is /data5/log/leo_object_storage_40003.20180905.20.1
+* closing log file is /data6/log/leo_object_storage_50003.20180905.19.1
+* opening log file is /data6/log/leo_object_storage_50003.20180905.20.1
+* closing log file is /data7/log/leo_object_storage_60003.20180905.19.1
+* opening log file is /data7/log/leo_object_storage_60003.20180905.20.1
+* closing log file is /data1/log/leo_object_storage_2.20180905.19.1
+* opening log file is /data1/log/leo_object_storage_2.20180905.20.1
+* closing log file is /data2/log/leo_object_storage_10002.20180905.19.1
+* opening log file is /data2/log/leo_object_storage_10002.20180905.20.1
+* closing log file is /data3/log/leo_object_storage_20002.20180905.19.1
+* opening log file is /data3/log/leo_object_storage_20002.20180905.20.1
+* closing log file is /data4/log/leo_object_storage_30002.20180905.19.1
+* opening log file is /data4/log/leo_object_storage_30002.20180905.20.1
+* closing log file is /data5/log/leo_object_storage_40002.20180905.19.1
+* opening log file is /data5/log/leo_object_storage_40002.20180905.20.1
+* closing log file is /data6/log/leo_object_storage_50002.20180905.19.1
+* opening log file is /data6/log/leo_object_storage_50002.20180905.20.1
+* closing log file is /data7/log/leo_object_storage_60002.20180905.19.1
+* opening log file is /data7/log/leo_object_storage_60002.20180905.20.1
+* closing log file is /data1/log/leo_object_storage_1.20180905.19.1
+* opening log file is /data1/log/leo_object_storage_1.20180905.20.1
+* closing log file is /data2/log/leo_object_storage_10001.20180905.19.1
+* opening log file is /data2/log/leo_object_storage_10001.20180905.20.1
+* closing log file is /data3/log/leo_object_storage_20001.20180905.19.1
+* opening log file is /data3/log/leo_object_storage_20001.20180905.20.1
+* closing log file is /data4/log/leo_object_storage_30001.20180905.19.1
+* opening log file is /data4/log/leo_object_storage_30001.20180905.20.1
+* closing log file is /data5/log/leo_object_storage_40001.20180905.19.1
+* opening log file is /data5/log/leo_object_storage_40001.20180905.20.1
+* closing log file is /data6/log/leo_object_storage_50001.20180905.19.1
+* opening log file is /data6/log/leo_object_storage_50001.20180905.20.1
+* closing log file is /data7/log/leo_object_storage_60001.20180905.19.1
+* opening log file is /data7/log/leo_object_storage_60001.20180905.20.1
+* closing log file is /data1/log/leo_object_storage_0.20180905.19.1
+* opening log file is /data1/log/leo_object_storage_0.20180905.20.1
+* closing log file is /data2/log/leo_object_storage_10000.20180905.19.1
+* opening log file is /data2/log/leo_object_storage_10000.20180905.20.1
+* closing log file is /data3/log/leo_object_storage_20000.20180905.19.1
+* opening log file is /data3/log/leo_object_storage_20000.20180905.20.1
+* closing log file is /data4/log/leo_object_storage_30000.20180905.19.1
+* opening log file is /data4/log/leo_object_storage_30000.20180905.20.1
+* closing log file is /data5/log/leo_object_storage_40000.20180905.19.1
+* opening log file is /data5/log/leo_object_storage_40000.20180905.20.1
+* closing log file is /data6/log/leo_object_storage_50000.20180905.19.1
+* opening log file is /data6/log/leo_object_storage_50000.20180905.20.1
+* closing log file is /data7/log/leo_object_storage_60000.20180905.19.1
+* opening log file is /data7/log/leo_object_storage_60000.20180905.20.1
+
+===== ALIVE Wed Sep  5 20:15:14 CST 2018
+
+===== ALIVE Wed Sep  5 20:30:15 CST 2018
+
+===== ALIVE Wed Sep  5 20:45:15 CST 2018
+
+===== Wed Sep  5 21:00:14 CST 2018
+* closing log file is /data1/log/leo_object_storage_7.20180905.20.1
+* opening log file is /data1/log/leo_object_storage_7.20180905.21.1
+* closing log file is /data2/log/leo_object_storage_10007.20180905.20.1
+* opening log file is /data2/log/leo_object_storage_10007.20180905.21.1
+* closing log file is /data3/log/leo_object_storage_20007.20180905.20.1
+* opening log file is /data3/log/leo_object_storage_20007.20180905.21.1
+* closing log file is /data4/log/leo_object_storage_30007.20180905.20.1
+* opening log file is /data4/log/leo_object_storage_30007.20180905.21.1
+* closing log file is /data5/log/leo_object_storage_40007.20180905.20.1
+* opening log file is /data5/log/leo_object_storage_40007.20180905.21.1
+* closing log file is /data6/log/leo_object_storage_50007.20180905.20.1
+* opening log file is /data6/log/leo_object_storage_50007.20180905.21.1
+* closing log file is /data7/log/leo_object_storage_60007.20180905.20.1
+* opening log file is /data7/log/leo_object_storage_60007.20180905.21.1
+* closing log file is /data1/log/leo_object_storage_6.20180905.20.1
+* opening log file is /data1/log/leo_object_storage_6.20180905.21.1
+* closing log file is /data2/log/leo_object_storage_10006.20180905.20.1
+* opening log file is /data2/log/leo_object_storage_10006.20180905.21.1
+* closing log file is /data3/log/leo_object_storage_20006.20180905.20.1
+* opening log file is /data3/log/leo_object_storage_20006.20180905.21.1
+* closing log file is /data4/log/leo_object_storage_30006.20180905.20.1
+* opening log file is /data4/log/leo_object_storage_30006.20180905.21.1
+* closing log file is /data5/log/leo_object_storage_40006.20180905.20.1
+* opening log file is /data5/log/leo_object_storage_40006.20180905.21.1
+* closing log file is /data6/log/leo_object_storage_50006.20180905.20.1
+* opening log file is /data6/log/leo_object_storage_50006.20180905.21.1
+* closing log file is /data7/log/leo_object_storage_60006.20180905.20.1
+* opening log file is /data7/log/leo_object_storage_60006.20180905.21.1
+* closing log file is /data1/log/leo_object_storage_5.20180905.20.1
+* opening log file is /data1/log/leo_object_storage_5.20180905.21.1
+* closing log file is /data2/log/leo_object_storage_10005.20180905.20.1
+* opening log file is /data2/log/leo_object_storage_10005.20180905.21.1
+* closing log file is /data3/log/leo_object_storage_20005.20180905.20.1
+* opening log file is /data3/log/leo_object_storage_20005.20180905.21.1
+* closing log file is /data4/log/leo_object_storage_30005.20180905.20.1
+* opening log file is /data4/log/leo_object_storage_30005.20180905.21.1
+* closing log file is /data5/log/leo_object_storage_40005.20180905.20.1
+* opening log file is /data5/log/leo_object_storage_40005.20180905.21.1
+* closing log file is /data6/log/leo_object_storage_50005.20180905.20.1
+* opening log file is /data6/log/leo_object_storage_50005.20180905.21.1
+* closing log file is /data7/log/leo_object_storage_60005.20180905.20.1
+* opening log file is /data7/log/leo_object_storage_60005.20180905.21.1
+* closing log file is /data1/log/leo_object_storage_4.20180905.20.1
+* opening log file is /data1/log/leo_object_storage_4.20180905.21.1
+* closing log file is /data2/log/leo_object_storage_10004.20180905.20.1
+* opening log file is /data2/log/leo_object_storage_10004.20180905.21.1
+* closing log file is /data3/log/leo_object_storage_20004.20180905.20.1
+* opening log file is /data3/log/leo_object_storage_20004.20180905.21.1
+* closing log file is /data4/log/leo_object_storage_30004.20180905.20.1
+* opening log file is /data4/log/leo_object_storage_30004.20180905.21.1
+* closing log file is /data5/log/leo_object_storage_40004.20180905.20.1
+* opening log file is /data5/log/leo_object_storage_40004.20180905.21.1
+* closing log file is /data6/log/leo_object_storage_50004.20180905.20.1
+* opening log file is /data6/log/leo_object_storage_50004.20180905.21.1
+* closing log file is /data7/log/leo_object_storage_60004.20180905.20.1
+* opening log file is /data7/log/leo_object_storage_60004.20180905.21.1
+* closing log file is /data1/log/leo_object_storage_3.20180905.20.1
+* opening log file is /data1/log/leo_object_storage_3.20180905.21.1
+* closing log file is /data2/log/leo_object_storage_10003.20180905.20.1
+* opening log file is /data2/log/leo_object_storage_10003.20180905.21.1
+* closing log file is /data3/log/leo_object_storage_20003.20180905.20.1
+* opening log file is /data3/log/leo_object_storage_20003.20180905.21.1
+* closing log file is /data4/log/leo_object_storage_30003.20180905.20.1
+* opening log file is /data4/log/leo_object_storage_30003.20180905.21.1
+* closing log file is /data5/log/leo_object_storage_40003.20180905.20.1
+* opening log file is /data5/log/leo_object_storage_40003.20180905.21.1
+* closing log file is /data6/log/leo_object_storage_50003.20180905.20.1
+* opening log file is /data6/log/leo_object_storage_50003.20180905.21.1
+* closing log file is /data7/log/leo_object_storage_60003.20180905.20.1
+* opening log file is /data7/log/leo_object_storage_60003.20180905.21.1
+* closing log file is /data1/log/leo_object_storage_2.20180905.20.1
+* opening log file is /data1/log/leo_object_storage_2.20180905.21.1
+* closing log file is /data2/log/leo_object_storage_10002.20180905.20.1
+* opening log file is /data2/log/leo_object_storage_10002.20180905.21.1
+* closing log file is /data3/log/leo_object_storage_20002.20180905.20.1
+* opening log file is /data3/log/leo_object_storage_20002.20180905.21.1
+* closing log file is /data4/log/leo_object_storage_30002.20180905.20.1
+* opening log file is /data4/log/leo_object_storage_30002.20180905.21.1
+* closing log file is /data5/log/leo_object_storage_40002.20180905.20.1
+* opening log file is /data5/log/leo_object_storage_40002.20180905.21.1
+* closing log file is /data6/log/leo_object_storage_50002.20180905.20.1
+* opening log file is /data6/log/leo_object_storage_50002.20180905.21.1
+* closing log file is /data7/log/leo_object_storage_60002.20180905.20.1
+* opening log file is /data7/log/leo_object_storage_60002.20180905.21.1
+* closing log file is /data1/log/leo_object_storage_1.20180905.20.1
+* opening log file is /data1/log/leo_object_storage_1.20180905.21.1
+* closing log file is /data2/log/leo_object_storage_10001.20180905.20.1
+* opening log file is /data2/log/leo_object_storage_10001.20180905.21.1
+* closing log file is /data3/log/leo_object_storage_20001.20180905.20.1
+* opening log file is /data3/log/leo_object_storage_20001.20180905.21.1
+* closing log file is /data4/log/leo_object_storage_30001.20180905.20.1
+* opening log file is /data4/log/leo_object_storage_30001.20180905.21.1
+* closing log file is /data5/log/leo_object_storage_40001.20180905.20.1
+* opening log file is /data5/log/leo_object_storage_40001.20180905.21.1
+* closing log file is /data6/log/leo_object_storage_50001.20180905.20.1
+* opening log file is /data6/log/leo_object_storage_50001.20180905.21.1
+* closing log file is /data7/log/leo_object_storage_60001.20180905.20.1
+* opening log file is /data7/log/leo_object_storage_60001.20180905.21.1
+* closing log file is /data1/log/leo_object_storage_0.20180905.20.1
+* opening log file is /data1/log/leo_object_storage_0.20180905.21.1
+* closing log file is /data2/log/leo_object_storage_10000.20180905.20.1
+* opening log file is /data2/log/leo_object_storage_10000.20180905.21.1
+* closing log file is /data3/log/leo_object_storage_20000.20180905.20.1
+* opening log file is /data3/log/leo_object_storage_20000.20180905.21.1
+* closing log file is /data4/log/leo_object_storage_30000.20180905.20.1
+* opening log file is /data4/log/leo_object_storage_30000.20180905.21.1
+* closing log file is /data5/log/leo_object_storage_40000.20180905.20.1
+* opening log file is /data5/log/leo_object_storage_40000.20180905.21.1
+* closing log file is /data6/log/leo_object_storage_50000.20180905.20.1
+* opening log file is /data6/log/leo_object_storage_50000.20180905.21.1
+* closing log file is /data7/log/leo_object_storage_60000.20180905.20.1
+* opening log file is /data7/log/leo_object_storage_60000.20180905.21.1
+
+===== ALIVE Wed Sep  5 21:15:15 CST 2018
+
+===== ALIVE Wed Sep  5 21:30:15 CST 2018
+
+===== ALIVE Wed Sep  5 21:45:15 CST 2018
+
+===== Wed Sep  5 22:00:14 CST 2018
+* closing log file is /data1/log/leo_object_storage_7.20180905.21.1
+* opening log file is /data1/log/leo_object_storage_7.20180905.22.1
+* closing log file is /data2/log/leo_object_storage_10007.20180905.21.1
+* opening log file is /data2/log/leo_object_storage_10007.20180905.22.1
+* closing log file is /data3/log/leo_object_storage_20007.20180905.21.1
+* opening log file is /data3/log/leo_object_storage_20007.20180905.22.1
+* closing log file is /data4/log/leo_object_storage_30007.20180905.21.1
+* opening log file is /data4/log/leo_object_storage_30007.20180905.22.1
+* closing log file is /data5/log/leo_object_storage_40007.20180905.21.1
+* opening log file is /data5/log/leo_object_storage_40007.20180905.22.1
+* closing log file is /data6/log/leo_object_storage_50007.20180905.21.1
+* opening log file is /data6/log/leo_object_storage_50007.20180905.22.1
+* closing log file is /data7/log/leo_object_storage_60007.20180905.21.1
+* opening log file is /data7/log/leo_object_storage_60007.20180905.22.1
+* closing log file is /data1/log/leo_object_storage_6.20180905.21.1
+* opening log file is /data1/log/leo_object_storage_6.20180905.22.1
+* closing log file is /data2/log/leo_object_storage_10006.20180905.21.1
+* opening log file is /data2/log/leo_object_storage_10006.20180905.22.1
+* closing log file is /data3/log/leo_object_storage_20006.20180905.21.1
+* opening log file is /data3/log/leo_object_storage_20006.20180905.22.1
+* closing log file is /data4/log/leo_object_storage_30006.20180905.21.1
+* opening log file is /data4/log/leo_object_storage_30006.20180905.22.1
+* closing log file is /data5/log/leo_object_storage_40006.20180905.21.1
+* opening log file is /data5/log/leo_object_storage_40006.20180905.22.1
+* closing log file is /data6/log/leo_object_storage_50006.20180905.21.1
+* opening log file is /data6/log/leo_object_storage_50006.20180905.22.1
+* closing log file is /data7/log/leo_object_storage_60006.20180905.21.1
+* opening log file is /data7/log/leo_object_storage_60006.20180905.22.1
+* closing log file is /data1/log/leo_object_storage_5.20180905.21.1
+* opening log file is /data1/log/leo_object_storage_5.20180905.22.1
+* closing log file is /data2/log/leo_object_storage_10005.20180905.21.1
+* opening log file is /data2/log/leo_object_storage_10005.20180905.22.1
+* closing log file is /data3/log/leo_object_storage_20005.20180905.21.1
+* opening log file is /data3/log/leo_object_storage_20005.20180905.22.1
+* closing log file is /data4/log/leo_object_storage_30005.20180905.21.1
+* opening log file is /data4/log/leo_object_storage_30005.20180905.22.1
+* closing log file is /data5/log/leo_object_storage_40005.20180905.21.1
+* opening log file is /data5/log/leo_object_storage_40005.20180905.22.1
+* closing log file is /data6/log/leo_object_storage_50005.20180905.21.1
+* opening log file is /data6/log/leo_object_storage_50005.20180905.22.1
+* closing log file is /data7/log/leo_object_storage_60005.20180905.21.1
+* opening log file is /data7/log/leo_object_storage_60005.20180905.22.1
+* closing log file is /data1/log/leo_object_storage_4.20180905.21.1
+* opening log file is /data1/log/leo_object_storage_4.20180905.22.1
+* closing log file is /data2/log/leo_object_storage_10004.20180905.21.1
+* opening log file is /data2/log/leo_object_storage_10004.20180905.22.1
+* closing log file is /data3/log/leo_object_storage_20004.20180905.21.1
+* opening log file is /data3/log/leo_object_storage_20004.20180905.22.1
+* closing log file is /data4/log/leo_object_storage_30004.20180905.21.1
+* opening log file is /data4/log/leo_object_storage_30004.20180905.22.1
+* closing log file is /data5/log/leo_object_storage_40004.20180905.21.1
+* opening log file is /data5/log/leo_object_storage_40004.20180905.22.1
+* closing log file is /data6/log/leo_object_storage_50004.20180905.21.1
+* opening log file is /data6/log/leo_object_storage_50004.20180905.22.1
+* closing log file is /data7/log/leo_object_storage_60004.20180905.21.1
+* opening log file is /data7/log/leo_object_storage_60004.20180905.22.1
+* closing log file is /data1/log/leo_object_storage_3.20180905.21.1
+* opening log file is /data1/log/leo_object_storage_3.20180905.22.1
+* closing log file is /data2/log/leo_object_storage_10003.20180905.21.1
+* opening log file is /data2/log/leo_object_storage_10003.20180905.22.1
+* closing log file is /data3/log/leo_object_storage_20003.20180905.21.1
+* opening log file is /data3/log/leo_object_storage_20003.20180905.22.1
+* closing log file is /data4/log/leo_object_storage_30003.20180905.21.1
+* opening log file is /data4/log/leo_object_storage_30003.20180905.22.1
+* closing log file is /data5/log/leo_object_storage_40003.20180905.21.1
+* opening log file is /data5/log/leo_object_storage_40003.20180905.22.1
+* closing log file is /data6/log/leo_object_storage_50003.20180905.21.1
+* opening log file is /data6/log/leo_object_storage_50003.20180905.22.1
+* closing log file is /data7/log/leo_object_storage_60003.20180905.21.1
+* opening log file is /data7/log/leo_object_storage_60003.20180905.22.1
+* closing log file is /data1/log/leo_object_storage_2.20180905.21.1
+* opening log file is /data1/log/leo_object_storage_2.20180905.22.1
+* closing log file is /data2/log/leo_object_storage_10002.20180905.21.1
+* opening log file is /data2/log/leo_object_storage_10002.20180905.22.1
+* closing log file is /data3/log/leo_object_storage_20002.20180905.21.1
+* opening log file is /data3/log/leo_object_storage_20002.20180905.22.1
+* closing log file is /data4/log/leo_object_storage_30002.20180905.21.1
+* opening log file is /data4/log/leo_object_storage_30002.20180905.22.1
+* closing log file is /data5/log/leo_object_storage_40002.20180905.21.1
+* opening log file is /data5/log/leo_object_storage_40002.20180905.22.1
+* closing log file is /data6/log/leo_object_storage_50002.20180905.21.1
+* opening log file is /data6/log/leo_object_storage_50002.20180905.22.1
+* closing log file is /data7/log/leo_object_storage_60002.20180905.21.1
+* opening log file is /data7/log/leo_object_storage_60002.20180905.22.1
+* closing log file is /data1/log/leo_object_storage_1.20180905.21.1
+* opening log file is /data1/log/leo_object_storage_1.20180905.22.1
+* closing log file is /data2/log/leo_object_storage_10001.20180905.21.1
+* opening log file is /data2/log/leo_object_storage_10001.20180905.22.1
+* closing log file is /data3/log/leo_object_storage_20001.20180905.21.1
+* opening log file is /data3/log/leo_object_storage_20001.20180905.22.1
+* closing log file is /data4/log/leo_object_storage_30001.20180905.21.1
+* opening log file is /data4/log/leo_object_storage_30001.20180905.22.1
+* closing log file is /data5/log/leo_object_storage_40001.20180905.21.1
+* opening log file is /data5/log/leo_object_storage_40001.20180905.22.1
+* closing log file is /data6/log/leo_object_storage_50001.20180905.21.1
+* opening log file is /data6/log/leo_object_storage_50001.20180905.22.1
+* closing log file is /data7/log/leo_object_storage_60001.20180905.21.1
+* opening log file is /data7/log/leo_object_storage_60001.20180905.22.1
+* closing log file is /data1/log/leo_object_storage_0.20180905.21.1
+* opening log file is /data1/log/leo_object_storage_0.20180905.22.1
+* closing log file is /data2/log/leo_object_storage_10000.20180905.21.1
+* opening log file is /data2/log/leo_object_storage_10000.20180905.22.1
+* closing log file is /data3/log/leo_object_storage_20000.20180905.21.1
+* opening log file is /data3/log/leo_object_storage_20000.20180905.22.1
+* closing log file is /data4/log/leo_object_storage_30000.20180905.21.1
+* opening log file is /data4/log/leo_object_storage_30000.20180905.22.1
+* closing log file is /data5/log/leo_object_storage_40000.20180905.21.1
+* opening log file is /data5/log/leo_object_storage_40000.20180905.22.1
+* closing log file is /data6/log/leo_object_storage_50000.20180905.21.1
+* opening log file is /data6/log/leo_object_storage_50000.20180905.22.1
+* closing log file is /data7/log/leo_object_storage_60000.20180905.21.1
+* opening log file is /data7/log/leo_object_storage_60000.20180905.22.1
+
+===== ALIVE Wed Sep  5 22:15:15 CST 2018
+
+===== ALIVE Wed Sep  5 22:30:15 CST 2018
+
+===== ALIVE Wed Sep  5 22:45:15 CST 2018
+
+===== Wed Sep  5 23:00:14 CST 2018
+* closing log file is /data1/log/leo_object_storage_7.20180905.22.1
+* opening log file is /data1/log/leo_object_storage_7.20180905.23.1
+* closing log file is /data2/log/leo_object_storage_10007.20180905.22.1
+* opening log file is /data2/log/leo_object_storage_10007.20180905.23.1
+* closing log file is /data3/log/leo_object_storage_20007.20180905.22.1
+* opening log file is /data3/log/leo_object_storage_20007.20180905.23.1
+* closing log file is /data4/log/leo_object_storage_30007.20180905.22.1
+* opening log file is /data4/log/leo_object_storage_30007.20180905.23.1
+* closing log file is /data5/log/leo_object_storage_40007.20180905.22.1
+* opening log file is /data5/log/leo_object_storage_40007.20180905.23.1
+* closing log file is /data6/log/leo_object_storage_50007.20180905.22.1
+* opening log file is /data6/log/leo_object_storage_50007.20180905.23.1
+* closing log file is /data7/log/leo_object_storage_60007.20180905.22.1
+* opening log file is /data7/log/leo_object_storage_60007.20180905.23.1
+* closing log file is /data1/log/leo_object_storage_6.20180905.22.1
+* opening log file is /data1/log/leo_object_storage_6.20180905.23.1
+* closing log file is /data2/log/leo_object_storage_10006.20180905.22.1
+* opening log file is /data2/log/leo_object_storage_10006.20180905.23.1
+* closing log file is /data3/log/leo_object_storage_20006.20180905.22.1
+* opening log file is /data3/log/leo_object_storage_20006.20180905.23.1
+* closing log file is /data4/log/leo_object_storage_30006.20180905.22.1
+* opening log file is /data4/log/leo_object_storage_30006.20180905.23.1
+* closing log file is /data5/log/leo_object_storage_40006.20180905.22.1
+* opening log file is /data5/log/leo_object_storage_40006.20180905.23.1
+* closing log file is /data6/log/leo_object_storage_50006.20180905.22.1
+* opening log file is /data6/log/leo_object_storage_50006.20180905.23.1
+* closing log file is /data7/log/leo_object_storage_60006.20180905.22.1
+* opening log file is /data7/log/leo_object_storage_60006.20180905.23.1
+* closing log file is /data1/log/leo_object_storage_5.20180905.22.1
+* opening log file is /data1/log/leo_object_storage_5.20180905.23.1
+* closing log file is /data2/log/leo_object_storage_10005.20180905.22.1
+* opening log file is /data2/log/leo_object_storage_10005.20180905.23.1
+* closing log file is /data3/log/leo_object_storage_20005.20180905.22.1
+* opening log file is /data3/log/leo_object_storage_20005.20180905.23.1
+* closing log file is /data4/log/leo_object_storage_30005.20180905.22.1
+* opening log file is /data4/log/leo_object_storage_30005.20180905.23.1
+* closing log file is /data5/log/leo_object_storage_40005.20180905.22.1
+* opening log file is /data5/log/leo_object_storage_40005.20180905.23.1
+* closing log file is /data6/log/leo_object_storage_50005.20180905.22.1
+* opening log file is /data6/log/leo_object_storage_50005.20180905.23.1
+* closing log file is /data7/log/leo_object_storage_60005.20180905.22.1
+* opening log file is /data7/log/leo_object_storage_60005.20180905.23.1
+* closing log file is /data1/log/leo_object_storage_4.20180905.22.1
+* opening log file is /data1/log/leo_object_storage_4.20180905.23.1
+* closing log file is /data2/log/leo_object_storage_10004.20180905.22.1
+* opening log file is /data2/log/leo_object_storage_10004.20180905.23.1
+* closing log file is /data3/log/leo_object_storage_20004.20180905.22.1
+* opening log file is /data3/log/leo_object_storage_20004.20180905.23.1
+* closing log file is /data4/log/leo_object_storage_30004.20180905.22.1
+* opening log file is /data4/log/leo_object_storage_30004.20180905.23.1
+* closing log file is /data5/log/leo_object_storage_40004.20180905.22.1
+* opening log file is /data5/log/leo_object_storage_40004.20180905.23.1
+* closing log file is /data6/log/leo_object_storage_50004.20180905.22.1
+* opening log file is /data6/log/leo_object_storage_50004.20180905.23.1
+* closing log file is /data7/log/leo_object_storage_60004.20180905.22.1
+* opening log file is /data7/log/leo_object_storage_60004.20180905.23.1
+* closing log file is /data1/log/leo_object_storage_3.20180905.22.1
+* opening log file is /data1/log/leo_object_storage_3.20180905.23.1
+* closing log file is /data2/log/leo_object_storage_10003.20180905.22.1
+* opening log file is /data2/log/leo_object_storage_10003.20180905.23.1
+* closing log file is /data3/log/leo_object_storage_20003.20180905.22.1
+* opening log file is /data3/log/leo_object_storage_20003.20180905.23.1
+* closing log file is /data4/log/leo_object_storage_30003.20180905.22.1
+* opening log file is /data4/log/leo_object_storage_30003.20180905.23.1
+* closing log file is /data5/log/leo_object_storage_40003.20180905.22.1
+* opening log file is /data5/log/leo_object_storage_40003.20180905.23.1
+* closing log file is /data6/log/leo_object_storage_50003.20180905.22.1
+* opening log file is /data6/log/leo_object_storage_50003.20180905.23.1
+* closing log file is /data7/log/leo_object_storage_60003.20180905.22.1
+* opening log file is /data7/log/leo_object_storage_60003.20180905.23.1
+* closing log file is /data1/log/leo_object_storage_2.20180905.22.1
+* opening log file is /data1/log/leo_object_storage_2.20180905.23.1
+* closing log file is /data2/log/leo_object_storage_10002.20180905.22.1
+* opening log file is /data2/log/leo_object_storage_10002.20180905.23.1
+* closing log file is /data3/log/leo_object_storage_20002.20180905.22.1
+* opening log file is /data3/log/leo_object_storage_20002.20180905.23.1
+* closing log file is /data4/log/leo_object_storage_30002.20180905.22.1
+* opening log file is /data4/log/leo_object_storage_30002.20180905.23.1
+* closing log file is /data5/log/leo_object_storage_40002.20180905.22.1
+* opening log file is /data5/log/leo_object_storage_40002.20180905.23.1
+* closing log file is /data6/log/leo_object_storage_50002.20180905.22.1
+* opening log file is /data6/log/leo_object_storage_50002.20180905.23.1
+* closing log file is /data7/log/leo_object_storage_60002.20180905.22.1
+* opening log file is /data7/log/leo_object_storage_60002.20180905.23.1
+* closing log file is /data1/log/leo_object_storage_1.20180905.22.1
+* opening log file is /data1/log/leo_object_storage_1.20180905.23.1
+* closing log file is /data2/log/leo_object_storage_10001.20180905.22.1
+* opening log file is /data2/log/leo_object_storage_10001.20180905.23.1
+* closing log file is /data3/log/leo_object_storage_20001.20180905.22.1
+* opening log file is /data3/log/leo_object_storage_20001.20180905.23.1
+* closing log file is /data4/log/leo_object_storage_30001.20180905.22.1
+* opening log file is /data4/log/leo_object_storage_30001.20180905.23.1
+* closing log file is /data5/log/leo_object_storage_40001.20180905.22.1
+* opening log file is /data5/log/leo_object_storage_40001.20180905.23.1
+* closing log file is /data6/log/leo_object_storage_50001.20180905.22.1
+* opening log file is /data6/log/leo_object_storage_50001.20180905.23.1
+* closing log file is /data7/log/leo_object_storage_60001.20180905.22.1
+* opening log file is /data7/log/leo_object_storage_60001.20180905.23.1
+* closing log file is /data1/log/leo_object_storage_0.20180905.22.1
+* opening log file is /data1/log/leo_object_storage_0.20180905.23.1
+* closing log file is /data2/log/leo_object_storage_10000.20180905.22.1
+* opening log file is /data2/log/leo_object_storage_10000.20180905.23.1
+* closing log file is /data3/log/leo_object_storage_20000.20180905.22.1
+* opening log file is /data3/log/leo_object_storage_20000.20180905.23.1
+* closing log file is /data4/log/leo_object_storage_30000.20180905.22.1
+* opening log file is /data4/log/leo_object_storage_30000.20180905.23.1
+* closing log file is /data5/log/leo_object_storage_40000.20180905.22.1
+* opening log file is /data5/log/leo_object_storage_40000.20180905.23.1
+* closing log file is /data6/log/leo_object_storage_50000.20180905.22.1
+* opening log file is /data6/log/leo_object_storage_50000.20180905.23.1
+* closing log file is /data7/log/leo_object_storage_60000.20180905.22.1
+* opening log file is /data7/log/leo_object_storage_60000.20180905.23.1
+
+===== ALIVE Wed Sep  5 23:15:15 CST 2018
+
+===== ALIVE Wed Sep  5 23:30:15 CST 2018
+
+===== ALIVE Wed Sep  5 23:45:15 CST 2018
+
+===== Thu Sep  6 00:00:14 CST 2018
+* closing log file is /data1/log/leo_object_storage_7.20180905.23.1
+* opening log file is /data1/log/leo_object_storage_7.20180906.00.1
+* closing log file is /data2/log/leo_object_storage_10007.20180905.23.1
+* opening log file is /data2/log/leo_object_storage_10007.20180906.00.1
+* closing log file is /data3/log/leo_object_storage_20007.20180905.23.1
+* opening log file is /data3/log/leo_object_storage_20007.20180906.00.1
+* closing log file is /data4/log/leo_object_storage_30007.20180905.23.1
+* opening log file is /data4/log/leo_object_storage_30007.20180906.00.1
+* closing log file is /data5/log/leo_object_storage_40007.20180905.23.1
+* opening log file is /data5/log/leo_object_storage_40007.20180906.00.1
+* closing log file is /data6/log/leo_object_storage_50007.20180905.23.1
+* opening log file is /data6/log/leo_object_storage_50007.20180906.00.1
+* closing log file is /data7/log/leo_object_storage_60007.20180905.23.1
+* opening log file is /data7/log/leo_object_storage_60007.20180906.00.1
+* closing log file is /data1/log/leo_object_storage_6.20180905.23.1
+* opening log file is /data1/log/leo_object_storage_6.20180906.00.1
+* closing log file is /data2/log/leo_object_storage_10006.20180905.23.1
+* opening log file is /data2/log/leo_object_storage_10006.20180906.00.1
+* closing log file is /data3/log/leo_object_storage_20006.20180905.23.1
+* opening log file is /data3/log/leo_object_storage_20006.20180906.00.1
+* closing log file is /data4/log/leo_object_storage_30006.20180905.23.1
+* opening log file is /data4/log/leo_object_storage_30006.20180906.00.1
+* closing log file is /data5/log/leo_object_storage_40006.20180905.23.1
+* opening log file is /data5/log/leo_object_storage_40006.20180906.00.1
+* closing log file is /data6/log/leo_object_storage_50006.20180905.23.1
+* opening log file is /data6/log/leo_object_storage_50006.20180906.00.1
+* closing log file is /data7/log/leo_object_storage_60006.20180905.23.1
+* opening log file is /data7/log/leo_object_storage_60006.20180906.00.1
+* closing log file is /data1/log/leo_object_storage_5.20180905.23.1
+* opening log file is /data1/log/leo_object_storage_5.20180906.00.1
+* closing log file is /data2/log/leo_object_storage_10005.20180905.23.1
+* opening log file is /data2/log/leo_object_storage_10005.20180906.00.1
+* closing log file is /data3/log/leo_object_storage_20005.20180905.23.1
+* opening log file is /data3/log/leo_object_storage_20005.20180906.00.1
+* closing log file is /data4/log/leo_object_storage_30005.20180905.23.1
+* opening log file is /data4/log/leo_object_storage_30005.20180906.00.1
+* closing log file is /data5/log/leo_object_storage_40005.20180905.23.1
+* opening log file is /data5/log/leo_object_storage_40005.20180906.00.1
+* closing log file is /data6/log/leo_object_storage_50005.20180905.23.1
+* opening log file is /data6/log/leo_object_storage_50005.20180906.00.1
+* closing log file is /data7/log/leo_object_storage_60005.20180905.23.1
+* opening log file is /data7/log/leo_object_storage_60005.20180906.00.1
+* closing log file is /data1/log/leo_object_storage_4.20180905.23.1
+* opening log file is /data1/log/leo_object_storage_4.20180906.00.1
+* closing log file is /data2/log/leo_object_storage_10004.20180905.23.1
+* opening log file is /data2/log/leo_object_storage_10004.20180906.00.1
+* closing log file is /data3/log/leo_object_storage_20004.20180905.23.1
+* opening log file is /data3/log/leo_object_storage_20004.20180906.00.1
+* closing log file is /data4/log/leo_object_storage_30004.20180905.23.1
+* opening log file is /data4/log/leo_object_storage_30004.20180906.00.1
+* closing log file is /data5/log/leo_object_storage_40004.20180905.23.1
+* opening log file is /data5/log/leo_object_storage_40004.20180906.00.1
+* closing log file is /data6/log/leo_object_storage_50004.20180905.23.1
+* opening log file is /data6/log/leo_object_storage_50004.20180906.00.1
+* closing log file is /data7/log/leo_object_storage_60004.20180905.23.1
+* opening log file is /data7/log/leo_object_storage_60004.20180906.00.1
+* closing log file is /data1/log/leo_object_storage_3.20180905.23.1
+* opening log file is /data1/log/leo_object_storage_3.20180906.00.1
+* closing log file is /data2/log/leo_object_storage_10003.20180905.23.1
+* opening log file is /data2/log/leo_object_storage_10003.20180906.00.1
+* closing log file is /data3/log/leo_object_storage_20003.20180905.23.1
+* opening log file is /data3/log/leo_object_storage_20003.20180906.00.1
+* closing log file is /data4/log/leo_object_storage_30003.20180905.23.1
+* opening log file is /data4/log/leo_object_storage_30003.20180906.00.1
+* closing log file is /data5/log/leo_object_storage_40003.20180905.23.1
+* opening log file is /data5/log/leo_object_storage_40003.20180906.00.1
+* closing log file is /data6/log/leo_object_storage_50003.20180905.23.1
+* opening log file is /data6/log/leo_object_storage_50003.20180906.00.1
+* closing log file is /data7/log/leo_object_storage_60003.20180905.23.1
+* opening log file is /data7/log/leo_object_storage_60003.20180906.00.1
+* closing log file is /data1/log/leo_object_storage_2.20180905.23.1
+* opening log file is /data1/log/leo_object_storage_2.20180906.00.1
+* closing log file is /data2/log/leo_object_storage_10002.20180905.23.1
+* opening log file is /data2/log/leo_object_storage_10002.20180906.00.1
+* closing log file is /data3/log/leo_object_storage_20002.20180905.23.1
+* opening log file is /data3/log/leo_object_storage_20002.20180906.00.1
+* closing log file is /data4/log/leo_object_storage_30002.20180905.23.1
+* opening log file is /data4/log/leo_object_storage_30002.20180906.00.1
+* closing log file is /data5/log/leo_object_storage_40002.20180905.23.1
+* opening log file is /data5/log/leo_object_storage_40002.20180906.00.1
+* closing log file is /data6/log/leo_object_storage_50002.20180905.23.1
+* opening log file is /data6/log/leo_object_storage_50002.20180906.00.1
+* closing log file is /data7/log/leo_object_storage_60002.20180905.23.1
+* opening log file is /data7/log/leo_object_storage_60002.20180906.00.1
+* closing log file is /data1/log/leo_object_storage_1.20180905.23.1
+* opening log file is /data1/log/leo_object_storage_1.20180906.00.1
+* closing log file is /data2/log/leo_object_storage_10001.20180905.23.1
+* opening log file is /data2/log/leo_object_storage_10001.20180906.00.1
+* closing log file is /data3/log/leo_object_storage_20001.20180905.23.1
+* opening log file is /data3/log/leo_object_storage_20001.20180906.00.1
+* closing log file is /data4/log/leo_object_storage_30001.20180905.23.1
+* opening log file is /data4/log/leo_object_storage_30001.20180906.00.1
+* closing log file is /data5/log/leo_object_storage_40001.20180905.23.1
+* opening log file is /data5/log/leo_object_storage_40001.20180906.00.1
+* closing log file is /data6/log/leo_object_storage_50001.20180905.23.1
+* opening log file is /data6/log/leo_object_storage_50001.20180906.00.1
+* closing log file is /data7/log/leo_object_storage_60001.20180905.23.1
+* opening log file is /data7/log/leo_object_storage_60001.20180906.00.1
+* closing log file is /data1/log/leo_object_storage_0.20180905.23.1
+* opening log file is /data1/log/leo_object_storage_0.20180906.00.1
+* closing log file is /data2/log/leo_object_storage_10000.20180905.23.1
+* opening log file is /data2/log/leo_object_storage_10000.20180906.00.1
+* closing log file is /data3/log/leo_object_storage_20000.20180905.23.1
+* opening log file is /data3/log/leo_object_storage_20000.20180906.00.1
+* closing log file is /data4/log/leo_object_storage_30000.20180905.23.1
+* opening log file is /data4/log/leo_object_storage_30000.20180906.00.1
+* closing log file is /data5/log/leo_object_storage_40000.20180905.23.1
+* opening log file is /data5/log/leo_object_storage_40000.20180906.00.1
+* closing log file is /data6/log/leo_object_storage_50000.20180905.23.1
+* opening log file is /data6/log/leo_object_storage_50000.20180906.00.1
+* closing log file is /data7/log/leo_object_storage_60000.20180905.23.1
+* opening log file is /data7/log/leo_object_storage_60000.20180906.00.1
+
+===== ALIVE Thu Sep  6 00:15:15 CST 2018
+
+===== ALIVE Thu Sep  6 00:30:15 CST 2018
+
+===== ALIVE Thu Sep  6 00:45:15 CST 2018
+
+===== Thu Sep  6 01:00:14 CST 2018
+* closing log file is /data1/log/leo_object_storage_7.20180906.00.1
+* opening log file is /data1/log/leo_object_storage_7.20180906.01.1
+* closing log file is /data2/log/leo_object_storage_10007.20180906.00.1
+* opening log file is /data2/log/leo_object_storage_10007.20180906.01.1
+* closing log file is /data3/log/leo_object_storage_20007.20180906.00.1
+* opening log file is /data3/log/leo_object_storage_20007.20180906.01.1
+* closing log file is /data4/log/leo_object_storage_30007.20180906.00.1
+* opening log file is /data4/log/leo_object_storage_30007.20180906.01.1
+* closing log file is /data5/log/leo_object_storage_40007.20180906.00.1
+* opening log file is /data5/log/leo_object_storage_40007.20180906.01.1
+* closing log file is /data6/log/leo_object_storage_50007.20180906.00.1
+* opening log file is /data6/log/leo_object_storage_50007.20180906.01.1
+* closing log file is /data7/log/leo_object_storage_60007.20180906.00.1
+* opening log file is /data7/log/leo_object_storage_60007.20180906.01.1
+* closing log file is /data1/log/leo_object_storage_6.20180906.00.1
+* opening log file is /data1/log/leo_object_storage_6.20180906.01.1
+* closing log file is /data2/log/leo_object_storage_10006.20180906.00.1
+* opening log file is /data2/log/leo_object_storage_10006.20180906.01.1
+* closing log file is /data3/log/leo_object_storage_20006.20180906.00.1
+* opening log file is /data3/log/leo_object_storage_20006.20180906.01.1
+* closing log file is /data4/log/leo_object_storage_30006.20180906.00.1
+* opening log file is /data4/log/leo_object_storage_30006.20180906.01.1
+* closing log file is /data5/log/leo_object_storage_40006.20180906.00.1
+* opening log file is /data5/log/leo_object_storage_40006.20180906.01.1
+* closing log file is /data6/log/leo_object_storage_50006.20180906.00.1
+* opening log file is /data6/log/leo_object_storage_50006.20180906.01.1
+* closing log file is /data7/log/leo_object_storage_60006.20180906.00.1
+* opening log file is /data7/log/leo_object_storage_60006.20180906.01.1
+* closing log file is /data1/log/leo_object_storage_5.20180906.00.1
+* opening log file is /data1/log/leo_object_storage_5.20180906.01.1
+* closing log file is /data2/log/leo_object_storage_10005.20180906.00.1
+* opening log file is /data2/log/leo_object_storage_10005.20180906.01.1
+* closing log file is /data3/log/leo_object_storage_20005.20180906.00.1
+* opening log file is /data3/log/leo_object_storage_20005.20180906.01.1
+* closing log file is /data4/log/leo_object_storage_30005.20180906.00.1
+* opening log file is /data4/log/leo_object_storage_30005.20180906.01.1
+* closing log file is /data5/log/leo_object_storage_40005.20180906.00.1
+* opening log file is /data5/log/leo_object_storage_40005.20180906.01.1
+* closing log file is /data6/log/leo_object_storage_50005.20180906.00.1
+* opening log file is /data6/log/leo_object_storage_50005.20180906.01.1
+* closing log file is /data7/log/leo_object_storage_60005.20180906.00.1
+* opening log file is /data7/log/leo_object_storage_60005.20180906.01.1
+* closing log file is /data1/log/leo_object_storage_4.20180906.00.1
+* opening log file is /data1/log/leo_object_storage_4.20180906.01.1
+* closing log file is /data2/log/leo_object_storage_10004.20180906.00.1
+* opening log file is /data2/log/leo_object_storage_10004.20180906.01.1
+* closing log file is /data3/log/leo_object_storage_20004.20180906.00.1
+* opening log file is /data3/log/leo_object_storage_20004.20180906.01.1
+* closing log file is /data4/log/leo_object_storage_30004.20180906.00.1
+* opening log file is /data4/log/leo_object_storage_30004.20180906.01.1
+* closing log file is /data5/log/leo_object_storage_40004.20180906.00.1
+* closing log file is /data6/log/leo_object_storage_50004.20180906.00.1
+* closing log file is /data7/log/leo_object_storage_60004.20180906.00.1
+* opening log file is /data5/log/leo_object_storage_40004.20180906.01.1
+* opening log file is /data6/log/leo_object_storage_50004.20180906.01.1
+* opening log file is /data7/log/leo_object_storage_60004.20180906.01.1
+* closing log file is /data1/log/leo_object_storage_3.20180906.00.1
+* opening log file is /data1/log/leo_object_storage_3.20180906.01.1
+* closing log file is /data2/log/leo_object_storage_10003.20180906.00.1
+* opening log file is /data2/log/leo_object_storage_10003.20180906.01.1
+* closing log file is /data3/log/leo_object_storage_20003.20180906.00.1
+* opening log file is /data3/log/leo_object_storage_20003.20180906.01.1
+* closing log file is /data4/log/leo_object_storage_30003.20180906.00.1
+* opening log file is /data4/log/leo_object_storage_30003.20180906.01.1
+* closing log file is /data5/log/leo_object_storage_40003.20180906.00.1
+* opening log file is /data5/log/leo_object_storage_40003.20180906.01.1
+* closing log file is /data6/log/leo_object_storage_50003.20180906.00.1
+* opening log file is /data6/log/leo_object_storage_50003.20180906.01.1
+* closing log file is /data7/log/leo_object_storage_60003.20180906.00.1
+* opening log file is /data7/log/leo_object_storage_60003.20180906.01.1
