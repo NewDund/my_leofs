@@ -1,0 +1,12 @@
+2018-09-10 10:21:58 =ERROR REPORT====
+Error in process <0.27165.652> on node 'storage_02@10.0.1.107' with exit value:
+{badarg,[{gen_fsm,send_event,2,[{file,"gen_fsm.erl"},{line,215}]}]}
+2018-09-10 10:21:58 =ERROR REPORT====
+Error in process <0.27173.652> on node 'storage_02@10.0.1.107' with exit value:
+{badarg,[{gen_fsm,send_event,2,[{file,"gen_fsm.erl"},{line,215}]}]}
+2018-09-10 10:21:58 =ERROR REPORT====
+Error in process <0.27193.652> on node 'storage_02@10.0.1.107' with exit value:
+{badarg,[{gen_fsm,send_event,2,[{file,"gen_fsm.erl"},{line,215}]}]}
+2018-09-10 10:21:58 =ERROR REPORT====
+Error in process <0.27435.652> on node 'storage_02@10.0.1.107' with exit value:
+{badarg,[{gen_fsm,send_event,2,[{file,"gen_fsm.erl"},{line,215}]}]}
